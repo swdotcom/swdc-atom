@@ -1,11 +1,16 @@
 {
   "name": "Software",
   "main": "./lib/Activator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Insights into how you code",
   "keywords": [
-    "software", "productivity", "coding activity", "virtual manager",
-    "keystrokes", "calendar", "analytics"
+    "software",
+    "productivity",
+    "coding activity",
+    "virtual manager",
+    "keystrokes",
+    "calendar",
+    "analytics"
   ],
   "repository": "https://github.com/swdotcom/swdc-atom",
   "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
