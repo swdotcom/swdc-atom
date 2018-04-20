@@ -1,10 +1,12 @@
 {
-  "name": "Software",
+  "name": "Software.com",
   "main": "./lib/Activator",
   "version": "0.2.0",
   "description": "Insights into how you code",
   "keywords": [
     "software",
+    "software.com",
+    "code insights"
     "productivity",
     "coding activity",
     "virtual manager",
