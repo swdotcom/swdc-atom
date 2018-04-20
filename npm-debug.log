@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   '0.1.2',
+1 verbose cli   '-m',
+1 verbose cli   'Prepare %s release' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose stack Error: Version not changed
+4 verbose stack     at persistVersion (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/version.js:92:47)
+4 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/version.js:47:7
+4 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/version.js:119:5
+4 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+5 verbose cwd /Users/xavierluiz/projects/swdc-atom-project
+6 error Darwin 17.5.0
+7 error argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "0.1.2" "-m" "Prepare %s release"
+8 error node v6.9.5
+9 error npm  v3.10.10
+10 error Version not changed
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
