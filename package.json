@@ -1,7 +1,7 @@
 {
   "name": "Software.com",
   "main": "./lib/Activator",
-  "version": "0.2.0",
+  "version": "0.1.2",
   "description": "Insights into how you code",
   "keywords": [
     "software",
