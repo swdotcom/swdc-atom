@@ -20,7 +20,10 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.17.1",
+    "open": "^0.0.5",
+    "request": "^2.85.0",
+    "status-bar": "^2.0.3"
   },
   "devDependencies": {
     "typescript": "^2.7.2"
