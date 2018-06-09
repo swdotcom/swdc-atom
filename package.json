@@ -1,7 +1,7 @@
 {
   "name": "Software",
   "main": "./lib/Activator",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Insights into how you code",
   "keywords": [
     "software",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "crypto": "^1.0.1",
     "open": "^0.0.5",
     "request": "^2.85.0",
     "status-bar": "^2.0.3"
