@@ -16,6 +16,8 @@
 4. **Restart** Atom
 5. **Sign in** to authenticate your account by clicking the IDE prompt (only required for the first plugin you install)
 
+![Install](https://user-images.githubusercontent.com/27828739/41501250-99e740f6-7155-11e8-968f-f329cbaf3d1d.gif)
+
 ### Uninstall
 
 1. Navigate to **Packages** > **Settings View** > **Manage Packages**
