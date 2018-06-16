@@ -2,7 +2,7 @@
   "name": "Software",
   "main": "./lib/Activator",
   "version": "0.2.18",
-  "description": "Insights into how you code",
+  "description": "It's code time! We collect data across tools to help you code smarter.",
   "keywords": [
     "software",
     "software.com",
