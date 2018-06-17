@@ -14,7 +14,9 @@
 2. Search for **"Software"**
 3. **Install** *Software*
 4. **Restart** Atom
-5. **Authenticate** your account by clicking the IDE prompt (only required for the first plugin you install)
+5. **Sign in** to authenticate your account by clicking the IDE prompt (only required for the first plugin you install)
+
+![Install](https://user-images.githubusercontent.com/27828739/41501250-99e740f6-7155-11e8-968f-f329cbaf3d1d.gif)
 
 ### Uninstall
 
