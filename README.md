@@ -8,6 +8,8 @@
 
 *Software* is installed and uninstalled via the Atom marketplace.
 
+<!--- Begin: setup --->
+
 ### Install
 
 1. Navigate to **Packages** > **Settings View** > **Install Packages/Themes**
@@ -23,6 +25,8 @@
 1. Navigate to **Packages** > **Settings View** > **Manage Packages**
 2. Search for **"Software"**
 3. **Install** *Software*
+
+<!--- End: setup --->
 
 ## Privacy
 
