@@ -1,6 +1,6 @@
 # *Software* for Atom
 
-***Software* is currently in private Beta. To use this plugin, please join the wait list at https://software.com**
+***Software* is currently in private beta. To use this plugin, please join the wait list at https://software.com**
 
 *Software* measures activity in your text editor or IDE so you can see the times during the day when you are the most productive. We also help you see how much you code at work or at nights and weekends, how meetings impact the amount you code, and more. 
 
@@ -12,19 +12,19 @@
 
 ### Install
 
-1. Navigate to **Packages** > **Settings View** > **Install Packages/Themes**
-2. Search for **"Software"**
-3. **Install** *Software*
-4. **Restart** Atom
-5. **Log in** to authenticate your account by clicking the IDE prompt (only required for the first plugin you install)
+1. Navigate to Packages > Settings View > Install Packages/Themes
+2. Search for "Software"
+3. Install *Software*
+4. Restart Atom
+5. Log in to authenticate your account by clicking the prompt
 
 ![Install](https://user-images.githubusercontent.com/27828739/41501250-99e740f6-7155-11e8-968f-f329cbaf3d1d.gif)
 
 ### Uninstall
 
-1. Navigate to **Packages** > **Settings View** > **Manage Packages**
-2. Search for **"Software"**
-3. **Install** *Software*
+1. Navigate to Packages > Settings View > Manage Packages
+2. Search for "Software"
+3. Install *Software*
 
 <!--- End: setup --->
 
