@@ -1,8 +1,9 @@
 {
   "name": "Software",
   "main": "./lib/Activator",
-  "version": "0.3.7",
-  "description": "It's code time! We collect data across tools to help you code smarter.",
+  "version": "0.3.8",
+  "description":
+    "It's code time! We collect data across tools to help you code smarter.",
   "keywords": [
     "software",
     "software.com",
@@ -15,7 +16,8 @@
     "analytics"
   ],
   "repository": "https://github.com/swdotcom/swdc-atom",
-  "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
+  "license":
+    "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
@@ -23,9 +25,10 @@
     "axios": "^0.17.1",
     "crypto": "^1.0.1",
     "open": "^0.0.5",
-    "request": "^2.85.0",
     "status-bar": "^2.0.3",
-    "jquery": "3.3.1"
+    "jquery": "3.3.1",
+    "spotify-node-applescript": "1.1.1",
+    "itunes-node-applescript": "0.3.5"
   },
   "devDependencies": {
     "typescript": "^2.7.2"

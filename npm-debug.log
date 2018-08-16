@@ -1,0 +1,1168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   'patch',
+1 verbose cli   '-m',
+1 verbose cli   'Prepare %s release' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 info git [ 'status', '--porcelain' ]
+5 verbose stack Error: Git working directory not clean.
+5 verbose stack M lib/Activator.js
+5 verbose stack M lib/KeystrokeManager.js
+5 verbose stack M lib/SessionManager.js
+5 verbose stack D node_modules/.bin/sshpk-conv
+5 verbose stack D node_modules/.bin/sshpk-sign
+5 verbose stack D node_modules/.bin/sshpk-verify
+5 verbose stack D node_modules/.bin/uuid
+5 verbose stack D node_modules/ajv/.tonic_example.js
+5 verbose stack D node_modules/ajv/LICENSE
+5 verbose stack D node_modules/ajv/README.md
+5 verbose stack D node_modules/ajv/dist/ajv.bundle.js
+5 verbose stack D node_modules/ajv/dist/ajv.min.js
+5 verbose stack D node_modules/ajv/dist/ajv.min.js.map
+5 verbose stack D node_modules/ajv/dist/nodent.min.js
+5 verbose stack D node_modules/ajv/dist/regenerator.min.js
+5 verbose stack D node_modules/ajv/lib/$data.js
+5 verbose stack D node_modules/ajv/lib/ajv.d.ts
+5 verbose stack D node_modules/ajv/lib/ajv.js
+5 verbose stack D node_modules/ajv/lib/cache.js
+5 verbose stack D node_modules/ajv/lib/compile/_rules.js
+5 verbose stack D node_modules/ajv/lib/compile/async.js
+5 verbose stack D node_modules/ajv/lib/compile/equal.js
+5 verbose stack D node_modules/ajv/lib/compile/error_classes.js
+5 verbose stack D node_modules/ajv/lib/compile/formats.js
+5 verbose stack D node_modules/ajv/lib/compile/index.js
+5 verbose stack D node_modules/ajv/lib/compile/resolve.js
+5 verbose stack D node_modules/ajv/lib/compile/rules.js
+5 verbose stack D node_modules/ajv/lib/compile/schema_obj.js
+5 verbose stack D node_modules/ajv/lib/compile/ucs2length.js
+5 verbose stack D node_modules/ajv/lib/compile/util.js
+5 verbose stack D node_modules/ajv/lib/dot/_limit.jst
+5 verbose stack D node_modules/ajv/lib/dot/_limitItems.jst
+5 verbose stack D node_modules/ajv/lib/dot/_limitLength.jst
+5 verbose stack D node_modules/ajv/lib/dot/_limitProperties.jst
+5 verbose stack D node_modules/ajv/lib/dot/allOf.jst
+5 verbose stack D node_modules/ajv/lib/dot/anyOf.jst
+5 verbose stack D node_modules/ajv/lib/dot/coerce.def
+5 verbose stack D node_modules/ajv/lib/dot/const.jst
+5 verbose stack D node_modules/ajv/lib/dot/contains.jst
+5 verbose stack D node_modules/ajv/lib/dot/custom.jst
+5 verbose stack D node_modules/ajv/lib/dot/defaults.def
+5 verbose stack D node_modules/ajv/lib/dot/definitions.def
+5 verbose stack D node_modules/ajv/lib/dot/dependencies.jst
+5 verbose stack D node_modules/ajv/lib/dot/enum.jst
+5 verbose stack D node_modules/ajv/lib/dot/errors.def
+5 verbose stack D node_modules/ajv/lib/dot/format.jst
+5 verbose stack D node_modules/ajv/lib/dot/items.jst
+5 verbose stack D node_modules/ajv/lib/dot/missing.def
+5 verbose stack D node_modules/ajv/lib/dot/multipleOf.jst
+5 verbose stack D node_modules/ajv/lib/dot/not.jst
+5 verbose stack D node_modules/ajv/lib/dot/oneOf.jst
+5 verbose stack D node_modules/ajv/lib/dot/pattern.jst
+5 verbose stack D node_modules/ajv/lib/dot/properties.jst
+5 verbose stack D node_modules/ajv/lib/dot/propertyNames.jst
+5 verbose stack D node_modules/ajv/lib/dot/ref.jst
+5 verbose stack D node_modules/ajv/lib/dot/required.jst
+5 verbose stack D node_modules/ajv/lib/dot/uniqueItems.jst
+5 verbose stack D node_modules/ajv/lib/dot/validate.jst
+5 verbose stack D node_modules/ajv/lib/dotjs/README.md
+5 verbose stack D node_modules/ajv/lib/dotjs/_limit.js
+5 verbose stack D node_modules/ajv/lib/dotjs/_limitItems.js
+5 verbose stack D node_modules/ajv/lib/dotjs/_limitLength.js
+5 verbose stack D node_modules/ajv/lib/dotjs/_limitProperties.js
+5 verbose stack D node_modules/ajv/lib/dotjs/allOf.js
+5 verbose stack D node_modules/ajv/lib/dotjs/anyOf.js
+5 verbose stack D node_modules/ajv/lib/dotjs/const.js
+5 verbose stack D node_modules/ajv/lib/dotjs/contains.js
+5 verbose stack D node_modules/ajv/lib/dotjs/custom.js
+5 verbose stack D node_modules/ajv/lib/dotjs/dependencies.js
+5 verbose stack D node_modules/ajv/lib/dotjs/enum.js
+5 verbose stack D node_modules/ajv/lib/dotjs/format.js
+5 verbose stack D node_modules/ajv/lib/dotjs/items.js
+5 verbose stack D node_modules/ajv/lib/dotjs/multipleOf.js
+5 verbose stack D node_modules/ajv/lib/dotjs/not.js
+5 verbose stack D node_modules/ajv/lib/dotjs/oneOf.js
+5 verbose stack D node_modules/ajv/lib/dotjs/pattern.js
+5 verbose stack D node_modules/ajv/lib/dotjs/properties.js
+5 verbose stack D node_modules/ajv/lib/dotjs/propertyNames.js
+5 verbose stack D node_modules/ajv/lib/dotjs/ref.js
+5 verbose stack D node_modules/ajv/lib/dotjs/required.js
+5 verbose stack D node_modules/ajv/lib/dotjs/uniqueItems.js
+5 verbose stack D node_modules/ajv/lib/dotjs/validate.js
+5 verbose stack D node_modules/ajv/lib/keyword.js
+5 verbose stack D node_modules/ajv/lib/patternGroups.js
+5 verbose stack D node_modules/ajv/lib/refs/$data.json
+5 verbose stack D node_modules/ajv/lib/refs/json-schema-draft-04.json
+5 verbose stack D node_modules/ajv/lib/refs/json-schema-draft-06.json
+5 verbose stack D node_modules/ajv/lib/refs/json-schema-v5.json
+5 verbose stack D node_modules/ajv/package.json
+5 verbose stack D node_modules/ajv/scripts/.eslintrc.yml
+5 verbose stack D node_modules/ajv/scripts/bundle.js
+5 verbose stack D node_modules/ajv/scripts/compile-dots.js
+5 verbose stack D node_modules/ajv/scripts/info
+5 verbose stack D node_modules/ajv/scripts/prepare-tests
+5 verbose stack D node_modules/ajv/scripts/travis-gh-pages
+5 verbose stack D node_modules/asn1/.npmignore
+5 verbose stack D node_modules/asn1/.travis.yml
+5 verbose stack D node_modules/asn1/LICENSE
+5 verbose stack D node_modules/asn1/README.md
+5 verbose stack D node_modules/asn1/lib/ber/errors.js
+5 verbose stack D node_modules/asn1/lib/ber/index.js
+5 verbose stack D node_modules/asn1/lib/ber/reader.js
+5 verbose stack D node_modules/asn1/lib/ber/types.js
+5 verbose stack D node_modules/asn1/lib/ber/writer.js
+5 verbose stack D node_modules/asn1/lib/index.js
+5 verbose stack D node_modules/asn1/package.json
+5 verbose stack D node_modules/asn1/tst/ber/reader.test.js
+5 verbose stack D node_modules/asn1/tst/ber/writer.test.js
+5 verbose stack D node_modules/assert-plus/AUTHORS
+5 verbose stack D node_modules/assert-plus/CHANGES.md
+5 verbose stack D node_modules/assert-plus/README.md
+5 verbose stack D node_modules/assert-plus/assert.js
+5 verbose stack D node_modules/assert-plus/package.json
+5 verbose stack D node_modules/asynckit/LICENSE
+5 verbose stack D node_modules/asynckit/README.md
+5 verbose stack D node_modules/asynckit/bench.js
+5 verbose stack D node_modules/asynckit/index.js
+5 verbose stack D node_modules/asynckit/lib/abort.js
+5 verbose stack D node_modules/asynckit/lib/async.js
+5 verbose stack D node_modules/asynckit/lib/defer.js
+5 verbose stack D node_modules/asynckit/lib/iterate.js
+5 verbose stack D node_modules/asynckit/lib/readable_asynckit.js
+5 verbose stack D node_modules/asynckit/lib/readable_parallel.js
+5 verbose stack D node_modules/asynckit/lib/readable_serial.js
+5 verbose stack D node_modules/asynckit/lib/readable_serial_ordered.js
+5 verbose stack D node_modules/asynckit/lib/state.js
+5 verbose stack D node_modules/asynckit/lib/streamify.js
+5 verbose stack D node_modules/asynckit/lib/terminator.js
+5 verbose stack D node_modules/asynckit/package.json
+5 verbose stack D node_modules/asynckit/parallel.js
+5 verbose stack D node_modules/asynckit/serial.js
+5 verbose stack D node_modules/asynckit/serialOrdered.js
+5 verbose stack D node_modules/asynckit/stream.js
+5 verbose stack D node_modules/aws-sign2/LICENSE
+5 verbose stack D node_modules/aws-sign2/README.md
+5 verbose stack D node_modules/aws-sign2/index.js
+5 verbose stack D node_modules/aws-sign2/package.json
+5 verbose stack D node_modules/aws4/.travis.yml
+5 verbose stack D node_modules/aws4/LICENSE
+5 verbose stack D node_modules/aws4/README.md
+5 verbose stack D node_modules/aws4/aws4.js
+5 verbose stack D node_modules/aws4/lru.js
+5 verbose stack D node_modules/aws4/package.json
+5 verbose stack D node_modules/bcrypt-pbkdf/README.md
+5 verbose stack D node_modules/bcrypt-pbkdf/index.js
+5 verbose stack D node_modules/bcrypt-pbkdf/package.json
+5 verbose stack D node_modules/boom/LICENSE
+5 verbose stack D node_modules/boom/README.md
+5 verbose stack D node_modules/boom/lib/index.js
+5 verbose stack D node_modules/boom/package.json
+5 verbose stack D node_modules/caseless/LICENSE
+5 verbose stack D node_modules/caseless/README.md
+5 verbose stack D node_modules/caseless/index.js
+5 verbose stack D node_modules/caseless/package.json
+5 verbose stack D node_modules/caseless/test.js
+5 verbose stack D node_modules/co/History.md
+5 verbose stack D node_modules/co/LICENSE
+5 verbose stack D node_modules/co/Readme.md
+5 verbose stack D node_modules/co/index.js
+5 verbose stack D node_modules/co/package.json
+5 verbose stack D node_modules/combined-stream/License
+5 verbose stack D node_modules/combined-stream/Readme.md
+5 verbose stack D node_modules/combined-stream/lib/combined_stream.js
+5 verbose stack D node_modules/combined-stream/lib/defer.js
+5 verbose stack D node_modules/combined-stream/package.json
+5 verbose stack D node_modules/core-util-is/LICENSE
+5 verbose stack D node_modules/core-util-is/README.md
+5 verbose stack D node_modules/core-util-is/float.patch
+5 verbose stack D node_modules/core-util-is/lib/util.js
+5 verbose stack D node_modules/core-util-is/package.json
+5 verbose stack D node_modules/core-util-is/test.js
+5 verbose stack D node_modules/cryptiles/.npmignore
+5 verbose stack D node_modules/cryptiles/LICENSE
+5 verbose stack D node_modules/cryptiles/README.md
+5 verbose stack D node_modules/cryptiles/lib/index.js
+5 verbose stack D node_modules/cryptiles/node_modules/boom/LICENSE
+5 verbose stack D node_modules/cryptiles/node_modules/boom/README.md
+5 verbose stack D node_modules/cryptiles/node_modules/boom/lib/index.js
+5 verbose stack D node_modules/cryptiles/node_modules/boom/package.json
+5 verbose stack D node_modules/cryptiles/package.json
+5 verbose stack D node_modules/dashdash/CHANGES.md
+5 verbose stack D node_modules/dashdash/LICENSE.txt
+5 verbose stack D node_modules/dashdash/README.md
+5 verbose stack D node_modules/dashdash/etc/dashdash.bash_completion.in
+5 verbose stack D node_modules/dashdash/lib/dashdash.js
+5 verbose stack D node_modules/dashdash/package.json
+5 verbose stack D node_modules/delayed-stream/.npmignore
+5 verbose stack D node_modules/delayed-stream/License
+5 verbose stack D node_modules/delayed-stream/Makefile
+5 verbose stack D node_modules/delayed-stream/Readme.md
+5 verbose stack D node_modules/delayed-stream/lib/delayed_stream.js
+5 verbose stack D node_modules/delayed-stream/package.json
+5 verbose stack D node_modules/ecc-jsbn/.npmignore
+5 verbose stack D node_modules/ecc-jsbn/LICENSE
+5 verbose stack D node_modules/ecc-jsbn/README.md
+5 verbose stack D node_modules/ecc-jsbn/index.js
+5 verbose stack D node_modules/ecc-jsbn/lib/LICENSE-jsbn
+5 verbose stack D node_modules/ecc-jsbn/lib/ec.js
+5 verbose stack D node_modules/ecc-jsbn/lib/sec.js
+5 verbose stack D node_modules/ecc-jsbn/package.json
+5 verbose stack D node_modules/ecc-jsbn/test.js
+5 verbose stack D node_modules/extend/.eslintrc
+5 verbose stack D node_modules/extend/.jscs.json
+5 verbose stack D node_modules/extend/.npmignore
+5 verbose stack D node_modules/extend/.travis.yml
+5 verbose stack D node_modules/extend/CHANGELOG.md
+5 verbose stack D node_modules/extend/LICENSE
+5 verbose stack D node_modules/extend/README.md
+5 verbose stack D node_modules/extend/component.json
+5 verbose stack D node_modules/extend/index.js
+5 verbose stack D node_modules/extend/package.json
+5 verbose stack D node_modules/extsprintf/.gitmodules
+5 verbose stack D node_modules/extsprintf/.npmignore
+5 verbose stack D node_modules/extsprintf/LICENSE
+5 verbose stack D node_modules/extsprintf/Makefile
+5 verbose stack D node_modules/extsprintf/Makefile.targ
+5 verbose stack D node_modules/extsprintf/README.md
+5 verbose stack D node_modules/extsprintf/jsl.node.conf
+5 verbose stack D node_modules/extsprintf/lib/extsprintf.js
+5 verbose stack D node_modules/extsprintf/package.json
+5 verbose stack D node_modules/fast-deep-equal/LICENSE
+5 verbose stack D node_modules/fast-deep-equal/README.md
+5 verbose stack D node_modules/fast-deep-equal/index.d.ts
+5 verbose stack D node_modules/fast-deep-equal/index.js
+5 verbose stack D node_modules/fast-deep-equal/package.json
+5 verbose stack D node_modules/fast-json-stable-stringify/.eslintrc.yml
+5 verbose stack D node_modules/fast-json-stable-stringify/.npmignore
+5 verbose stack D node_modules/fast-json-stable-stringify/.travis.yml
+5 verbose stack D node_modules/fast-json-stable-stringify/LICENSE
+5 verbose stack D node_modules/fast-json-stable-stringify/README.md
+5 verbose stack D node_modules/fast-json-stable-stringify/benchmark/index.js
+5 verbose stack D node_modules/fast-json-stable-stringify/benchmark/test.json
+5 verbose stack D node_modules/fast-json-stable-stringify/example/key_cmp.js
+5 verbose stack D node_modules/fast-json-stable-stringify/example/nested.js
+5 verbose stack D node_modules/fast-json-stable-stringify/example/str.js
+5 verbose stack D node_modules/fast-json-stable-stringify/example/value_cmp.js
+5 verbose stack D node_modules/fast-json-stable-stringify/index.js
+5 verbose stack D node_modules/fast-json-stable-stringify/package.json
+5 verbose stack D node_modules/fast-json-stable-stringify/test/cmp.js
+5 verbose stack D node_modules/fast-json-stable-stringify/test/nested.js
+5 verbose stack D node_modules/fast-json-stable-stringify/test/str.js
+5 verbose stack D node_modules/fast-json-stable-stringify/test/to-json.js
+5 verbose stack D node_modules/forever-agent/LICENSE
+5 verbose stack D node_modules/forever-agent/README.md
+5 verbose stack D node_modules/forever-agent/index.js
+5 verbose stack D node_modules/forever-agent/package.json
+5 verbose stack D node_modules/form-data/License
+5 verbose stack D node_modules/form-data/README.md
+5 verbose stack D node_modules/form-data/README.md.bak
+5 verbose stack D node_modules/form-data/lib/browser.js
+5 verbose stack D node_modules/form-data/lib/form_data.js
+5 verbose stack D node_modules/form-data/lib/populate.js
+5 verbose stack D node_modules/form-data/package.json
+5 verbose stack D node_modules/getpass/.npmignore
+5 verbose stack D node_modules/getpass/.travis.yml
+5 verbose stack D node_modules/getpass/LICENSE
+5 verbose stack D node_modules/getpass/README.md
+5 verbose stack D node_modules/getpass/lib/index.js
+5 verbose stack D node_modules/getpass/package.json
+5 verbose stack D node_modules/har-schema/LICENSE
+5 verbose stack D node_modules/har-schema/README.md
+5 verbose stack D node_modules/har-schema/lib/afterRequest.json
+5 verbose stack D node_modules/har-schema/lib/beforeRequest.json
+5 verbose stack D node_modules/har-schema/lib/browser.json
+5 verbose stack D node_modules/har-schema/lib/cache.json
+5 verbose stack D node_modules/har-schema/lib/content.json
+5 verbose stack D node_modules/har-schema/lib/cookie.json
+5 verbose stack D node_modules/har-schema/lib/creator.json
+5 verbose stack D node_modules/har-schema/lib/entry.json
+5 verbose stack D node_modules/har-schema/lib/har.json
+5 verbose stack D node_modules/har-schema/lib/header.json
+5 verbose stack D node_modules/har-schema/lib/index.js
+5 verbose stack D node_modules/har-schema/lib/log.json
+5 verbose stack D node_modules/har-schema/lib/page.json
+5 verbose stack D node_modules/har-schema/lib/pageTimings.json
+5 verbose stack D node_modules/har-schema/lib/postData.json
+5 verbose stack D node_modules/har-schema/lib/query.json
+5 verbose stack D node_modules/har-schema/lib/request.json
+5 verbose stack D node_modules/har-schema/lib/response.json
+5 verbose stack D node_modules/har-schema/lib/timings.json
+5 verbose stack D node_modules/har-schema/package.json
+5 verbose stack D node_modules/har-validator/LICENSE
+5 verbose stack D node_modules/har-validator/README.md
+5 verbose stack D node_modules/har-validator/lib/async.js
+5 verbose stack D node_modules/har-validator/lib/error.js
+5 verbose stack D node_modules/har-validator/lib/promise.js
+5 verbose stack D node_modules/har-validator/package.json
+5 verbose stack D node_modules/hawk/.npmignore
+5 verbose stack D node_modules/hawk/LICENSE
+5 verbose stack D node_modules/hawk/README.md
+5 verbose stack D node_modules/hawk/client.js
+5 verbose stack D node_modules/hawk/dist/browser.js
+5 verbose stack D node_modules/hawk/lib/browser.js
+5 verbose stack D node_modules/hawk/lib/client.js
+5 verbose stack D node_modules/hawk/lib/crypto.js
+5 verbose stack D node_modules/hawk/lib/index.js
+5 verbose stack D node_modules/hawk/lib/server.js
+5 verbose stack D node_modules/hawk/lib/utils.js
+5 verbose stack D node_modules/hawk/package.json
+5 verbose stack D node_modules/hoek/.npmignore
+5 verbose stack D node_modules/hoek/LICENSE
+5 verbose stack D node_modules/hoek/README.md
+5 verbose stack D node_modules/hoek/lib/escape.js
+5 verbose stack D node_modules/hoek/lib/index.js
+5 verbose stack D node_modules/hoek/package.json
+5 verbose stack D node_modules/http-signature/.dir-locals.el
+5 verbose stack D node_modules/http-signature/.npmignore
+5 verbose stack D node_modules/http-signature/CHANGES.md
+5 verbose stack D node_modules/http-signature/LICENSE
+5 verbose stack D node_modules/http-signature/README.md
+5 verbose stack D node_modules/http-signature/http_signing.md
+5 verbose stack D node_modules/http-signature/lib/index.js
+5 verbose stack D node_modules/http-signature/lib/parser.js
+5 verbose stack D node_modules/http-signature/lib/signer.js
+5 verbose stack D node_modules/http-signature/lib/utils.js
+5 verbose stack D node_modules/http-signature/lib/verify.js
+5 verbose stack D node_modules/http-signature/package.json
+5 verbose stack D node_modules/is-typedarray/LICENSE.md
+5 verbose stack D node_modules/is-typedarray/README.md
+5 verbose stack D node_modules/is-typedarray/index.js
+5 verbose stack D node_modules/is-typedarray/package.json
+5 verbose stack D node_modules/is-typedarray/test.js
+5 verbose stack D node_modules/isstream/.jshintrc
+5 verbose stack D node_modules/isstream/.npmignore
+5 verbose stack D node_modules/isstream/.travis.yml
+5 verbose stack D node_modules/isstream/LICENSE.md
+5 verbose stack D node_modules/isstream/README.md
+5 verbose stack D node_modules/isstream/isstream.js
+5 verbose stack D node_modules/isstream/package.json
+5 verbose stack D node_modules/isstream/test.js
+5 verbose stack D node_modules/jsbn/.npmignore
+5 verbose stack D node_modules/jsbn/LICENSE
+5 verbose stack D node_modules/jsbn/README.md
+5 verbose stack D node_modules/jsbn/example.html
+5 verbose stack D node_modules/jsbn/example.js
+5 verbose stack D node_modules/jsbn/index.js
+5 verbose stack D node_modules/jsbn/package.json
+5 verbose stack D node_modules/json-schema-traverse/.eslintrc.yml
+5 verbose stack D node_modules/json-schema-traverse/.npmignore
+5 verbose stack D node_modules/json-schema-traverse/.travis.yml
+5 verbose stack D node_modules/json-schema-traverse/LICENSE
+5 verbose stack D node_modules/json-schema-traverse/README.md
+5 verbose stack D node_modules/json-schema-traverse/index.js
+5 verbose stack D node_modules/json-schema-traverse/package.json
+5 verbose stack D node_modules/json-schema-traverse/spec/.eslintrc.yml
+5 verbose stack D node_modules/json-schema-traverse/spec/fixtures/schema.js
+5 verbose stack D node_modules/json-schema-traverse/spec/index.spec.js
+5 verbose stack D node_modules/json-schema/README.md
+5 verbose stack D node_modules/json-schema/draft-00/hyper-schema
+5 verbose stack D node_modules/json-schema/draft-00/json-ref
+5 verbose stack D node_modules/json-schema/draft-00/links
+5 verbose stack D node_modules/json-schema/draft-00/schema
+5 verbose stack D node_modules/json-schema/draft-01/hyper-schema
+5 verbose stack D node_modules/json-schema/draft-01/json-ref
+5 verbose stack D node_modules/json-schema/draft-01/links
+5 verbose stack D node_modules/json-schema/draft-01/schema
+5 verbose stack D node_modules/json-schema/draft-02/hyper-schema
+5 verbose stack D node_modules/json-schema/draft-02/json-ref
+5 verbose stack D node_modules/json-schema/draft-02/links
+5 verbose stack D node_modules/json-schema/draft-02/schema
+5 verbose stack D node_modules/json-schema/draft-03/examples/address
+5 verbose stack D node_modules/json-schema/draft-03/examples/calendar
+5 verbose stack D node_modules/json-schema/draft-03/examples/card
+5 verbose stack D node_modules/json-schema/draft-03/examples/geo
+5 verbose stack D node_modules/json-schema/draft-03/examples/interfaces
+5 verbose stack D node_modules/json-schema/draft-03/hyper-schema
+5 verbose stack D node_modules/json-schema/draft-03/json-ref
+5 verbose stack D node_modules/json-schema/draft-03/links
+5 verbose stack D node_modules/json-schema/draft-03/schema
+5 verbose stack D node_modules/json-schema/draft-04/hyper-schema
+5 verbose stack D node_modules/json-schema/draft-04/links
+5 verbose stack D node_modules/json-schema/draft-04/schema
+5 verbose stack D node_modules/json-schema/draft-zyp-json-schema-03.xml
+5 verbose stack D node_modules/json-schema/draft-zyp-json-schema-04.xml
+5 verbose stack D node_modules/json-schema/lib/links.js
+5 verbose stack D node_modules/json-schema/lib/validate.js
+5 verbose stack D node_modules/json-schema/package.json
+5 verbose stack D node_modules/json-schema/test/tests.js
+5 verbose stack D node_modules/json-stringify-safe/.npmignore
+5 verbose stack D node_modules/json-stringify-safe/CHANGELOG.md
+5 verbose stack D node_modules/json-stringify-safe/LICENSE
+5 verbose stack D node_modules/json-stringify-safe/Makefile
+5 verbose stack D node_modules/json-stringify-safe/README.md
+5 verbose stack D node_modules/json-stringify-safe/package.json
+5 verbose stack D node_modules/json-stringify-safe/stringify.js
+5 verbose stack D node_modules/json-stringify-safe/test/mocha.opts
+5 verbose stack D node_modules/json-stringify-safe/test/stringify_test.js
+5 verbose stack D node_modules/jsprim/CHANGES.md
+5 verbose stack D node_modules/jsprim/CONTRIBUTING.md
+5 verbose stack D node_modules/jsprim/LICENSE
+5 verbose stack D node_modules/jsprim/README.md
+5 verbose stack D node_modules/jsprim/lib/jsprim.js
+5 verbose stack D node_modules/jsprim/package.json
+5 verbose stack D node_modules/mime-db/HISTORY.md
+5 verbose stack D node_modules/mime-db/LICENSE
+5 verbose stack D node_modules/mime-db/README.md
+5 verbose stack D node_modules/mime-db/db.json
+5 verbose stack D node_modules/mime-db/index.js
+5 verbose stack D node_modules/mime-db/package.json
+5 verbose stack D node_modules/mime-types/HISTORY.md
+5 verbose stack D node_modules/mime-types/LICENSE
+5 verbose stack D node_modules/mime-types/README.md
+5 verbose stack D node_modules/mime-types/index.js
+5 verbose stack D node_modules/mime-types/package.json
+5 verbose stack D node_modules/oauth-sign/LICENSE
+5 verbose stack D node_modules/oauth-sign/README.md
+5 verbose stack D node_modules/oauth-sign/index.js
+5 verbose stack D node_modules/oauth-sign/package.json
+5 verbose stack D node_modules/performance-now/.npmignore
+5 verbose stack D node_modules/performance-now/.tm_properties
+5 verbose stack D node_modules/performance-now/.travis.yml
+5 verbose stack D node_modules/performance-now/README.md
+5 verbose stack D node_modules/performance-now/lib/performance-now.js
+5 verbose stack D node_modules/performance-now/lib/performance-now.js.map
+5 verbose stack D node_modules/performance-now/license.txt
+5 verbose stack D node_modules/performance-now/package.json
+5 verbose stack D node_modules/performance-now/src/index.d.ts
+5 verbose stack D node_modules/performance-now/src/performance-now.coffee
+5 verbose stack D node_modules/performance-now/test/mocha.opts
+5 verbose stack D node_modules/performance-now/test/performance-now.coffee
+5 verbose stack D node_modules/performance-now/test/scripts.coffee
+5 verbose stack D node_modules/performance-now/test/scripts/delayed-call.coffee
+5 verbose stack D node_modules/performance-now/test/scripts/delayed-require.coffee
+5 verbose stack D node_modules/performance-now/test/scripts/difference.coffee
+5 verbose stack D node_modules/performance-now/test/scripts/initial-value.coffee
+5 verbose stack D node_modules/punycode/LICENSE-MIT.txt
+5 verbose stack D node_modules/punycode/README.md
+5 verbose stack D node_modules/punycode/package.json
+5 verbose stack D node_modules/punycode/punycode.js
+5 verbose stack D node_modules/qs/.editorconfig
+5 verbose stack D node_modules/qs/.eslintignore
+5 verbose stack D node_modules/qs/.eslintrc
+5 verbose stack D node_modules/qs/CHANGELOG.md
+5 verbose stack D node_modules/qs/LICENSE
+5 verbose stack D node_modules/qs/README.md
+5 verbose stack D node_modules/qs/dist/qs.js
+5 verbose stack D node_modules/qs/lib/formats.js
+5 verbose stack D node_modules/qs/lib/index.js
+5 verbose stack D node_modules/qs/lib/parse.js
+5 verbose stack D node_modules/qs/lib/stringify.js
+5 verbose stack D node_modules/qs/lib/utils.js
+5 verbose stack D node_modules/qs/package.json
+5 verbose stack D node_modules/qs/test/.eslintrc
+5 verbose stack D node_modules/qs/test/index.js
+5 verbose stack D node_modules/qs/test/parse.js
+5 verbose stack D node_modules/qs/test/stringify.js
+5 verbose stack D node_modules/qs/test/utils.js
+5 verbose stack D node_modules/request/CHANGELOG.md
+5 verbose stack D node_modules/request/LICENSE
+5 verbose stack D node_modules/request/README.md
+5 verbose stack D node_modules/request/index.js
+5 verbose stack D node_modules/request/lib/auth.js
+5 verbose stack D node_modules/request/lib/cookies.js
+5 verbose stack D node_modules/request/lib/getProxyFromURI.js
+5 verbose stack D node_modules/request/lib/har.js
+5 verbose stack D node_modules/request/lib/helpers.js
+5 verbose stack D node_modules/request/lib/multipart.js
+5 verbose stack D node_modules/request/lib/oauth.js
+5 verbose stack D node_modules/request/lib/querystring.js
+5 verbose stack D node_modules/request/lib/redirect.js
+5 verbose stack D node_modules/request/lib/tunnel.js
+5 verbose stack D node_modules/request/package.json
+5 verbose stack D node_modules/request/request.js
+5 verbose stack D node_modules/safe-buffer/LICENSE
+5 verbose stack D node_modules/safe-buffer/README.md
+5 verbose stack D node_modules/safe-buffer/index.d.ts
+5 verbose stack D node_modules/safe-buffer/index.js
+5 verbose stack D node_modules/safe-buffer/package.json
+5 verbose stack D node_modules/sntp/.npmignore
+5 verbose stack D node_modules/sntp/LICENSE
+5 verbose stack D node_modules/sntp/README.md
+5 verbose stack D node_modules/sntp/lib/index.js
+5 verbose stack D node_modules/sntp/package.json
+5 verbose stack D node_modules/sshpk/.npmignore
+5 verbose stack D node_modules/sshpk/.travis.yml
+5 verbose stack D node_modules/sshpk/LICENSE
+5 verbose stack D node_modules/sshpk/README.md
+5 verbose stack D node_modules/sshpk/bin/sshpk-conv
+5 verbose stack D node_modules/sshpk/bin/sshpk-sign
+5 verbose stack D node_modules/sshpk/bin/sshpk-verify
+5 verbose stack D node_modules/sshpk/lib/algs.js
+5 verbose stack D node_modules/sshpk/lib/certificate.js
+5 verbose stack D node_modules/sshpk/lib/dhe.js
+5 verbose stack D node_modules/sshpk/lib/ed-compat.js
+5 verbose stack D node_modules/sshpk/lib/errors.js
+5 verbose stack D node_modules/sshpk/lib/fingerprint.js
+5 verbose stack D node_modules/sshpk/lib/formats/auto.js
+5 verbose stack D node_modules/sshpk/lib/formats/dnssec.js
+5 verbose stack D node_modules/sshpk/lib/formats/openssh-cert.js
+5 verbose stack D node_modules/sshpk/lib/formats/pem.js
+5 verbose stack D node_modules/sshpk/lib/formats/pkcs1.js
+5 verbose stack D node_modules/sshpk/lib/formats/pkcs8.js
+5 verbose stack D node_modules/sshpk/lib/formats/rfc4253.js
+5 verbose stack D node_modules/sshpk/lib/formats/ssh-private.js
+5 verbose stack D node_modules/sshpk/lib/formats/ssh.js
+5 verbose stack D node_modules/sshpk/lib/formats/x509-pem.js
+5 verbose stack D node_modules/sshpk/lib/formats/x509.js
+5 verbose stack D node_modules/sshpk/lib/identity.js
+5 verbose stack D node_modules/sshpk/lib/index.js
+5 verbose stack D node_modules/sshpk/lib/key.js
+5 verbose stack D node_modules/sshpk/lib/private-key.js
+5 verbose stack D node_modules/sshpk/lib/signature.js
+5 verbose stack D node_modules/sshpk/lib/ssh-buffer.js
+5 verbose stack D node_modules/sshpk/lib/utils.js
+5 verbose stack D node_modules/sshpk/man/man1/sshpk-conv.1
+5 verbose stack D node_modules/sshpk/man/man1/sshpk-sign.1
+5 verbose stack D node_modules/sshpk/man/man1/sshpk-verify.1
+5 verbose stack D node_modules/sshpk/package.json
+5 verbose stack D node_modules/stringstream/.travis.yml
+5 verbose stack D node_modules/stringstream/LICENSE.txt
+5 verbose stack D node_modules/stringstream/README.md
+5 verbose stack D node_modules/stringstream/example.js
+5 verbose stack D node_modules/stringstream/package.json
+5 verbose stack D node_modules/stringstream/stringstream.js
+5 verbose stack D node_modules/tough-cookie/LICENSE
+5 verbose stack D node_modules/tough-cookie/README.md
+5 verbose stack D node_modules/tough-cookie/lib/cookie.js
+5 verbose stack D node_modules/tough-cookie/lib/memstore.js
+5 verbose stack D node_modules/tough-cookie/lib/pathMatch.js
+5 verbose stack D node_modules/tough-cookie/lib/permuteDomain.js
+5 verbose stack D node_modules/tough-cookie/lib/pubsuffix.js
+5 verbose stack D node_modules/tough-cookie/lib/store.js
+5 verbose stack D node_modules/tough-cookie/package.json
+5 verbose stack D node_modules/tunnel-agent/LICENSE
+5 verbose stack D node_modules/tunnel-agent/README.md
+5 verbose stack D node_modules/tunnel-agent/index.js
+5 verbose stack D node_modules/tunnel-agent/package.json
+5 verbose stack D node_modules/tweetnacl/.npmignore
+5 verbose stack D node_modules/tweetnacl/AUTHORS.md
+5 verbose stack D node_modules/tweetnacl/CHANGELOG.md
+5 verbose stack D node_modules/tweetnacl/LICENSE
+5 verbose stack D node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md
+5 verbose stack D node_modules/tweetnacl/README.md
+5 verbose stack D node_modules/tweetnacl/nacl-fast.js
+5 verbose stack D node_modules/tweetnacl/nacl-fast.min.js
+5 verbose stack D node_modules/tweetnacl/nacl.d.ts
+5 verbose stack D node_modules/tweetnacl/nacl.js
+5 verbose stack D node_modules/tweetnacl/nacl.min.js
+5 verbose stack D node_modules/tweetnacl/package.json
+5 verbose stack D node_modules/uuid/.eslintrc.json
+5 verbose stack D node_modules/uuid/AUTHORS
+5 verbose stack D node_modules/uuid/CHANGELOG.md
+5 verbose stack D node_modules/uuid/LICENSE.md
+5 verbose stack D node_modules/uuid/README.md
+5 verbose stack D node_modules/uuid/README_js.md
+5 verbose stack D node_modules/uuid/bin/uuid
+5 verbose stack D node_modules/uuid/index.js
+5 verbose stack D node_modules/uuid/lib/bytesToUuid.js
+5 verbose stack D node_modules/uuid/lib/md5-browser.js
+5 verbose stack D node_modules/uuid/lib/md5.js
+5 verbose stack D node_modules/uuid/lib/rng-browser.js
+5 verbose stack D node_modules/uuid/lib/rng.js
+5 verbose stack D node_modules/uuid/lib/sha1-browser.js
+5 verbose stack D node_modules/uuid/lib/sha1.js
+5 verbose stack D node_modules/uuid/lib/v35.js
+5 verbose stack D node_modules/uuid/package.json
+5 verbose stack D node_modules/uuid/v1.js
+5 verbose stack D node_modules/uuid/v3.js
+5 verbose stack D node_modules/uuid/v4.js
+5 verbose stack D node_modules/uuid/v5.js
+5 verbose stack D node_modules/verror/.npmignore
+5 verbose stack D node_modules/verror/CHANGES.md
+5 verbose stack D node_modules/verror/CONTRIBUTING.md
+5 verbose stack D node_modules/verror/LICENSE
+5 verbose stack D node_modules/verror/README.md
+5 verbose stack D node_modules/verror/lib/verror.js
+5 verbose stack D node_modules/verror/package.json
+5 verbose stack M package.json
+5 verbose stack M yarn.lock
+5 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/version.js:247:19
+5 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/lib/utils/no-progress-while-running.js:21:8
+5 verbose stack     at ChildProcess.exithandler (child_process.js:197:7)
+5 verbose stack     at emitTwo (events.js:106:13)
+5 verbose stack     at ChildProcess.emit (events.js:191:7)
+5 verbose stack     at maybeClose (internal/child_process.js:877:16)
+5 verbose stack     at Socket.<anonymous> (internal/child_process.js:334:11)
+5 verbose stack     at emitOne (events.js:96:13)
+5 verbose stack     at Socket.emit (events.js:188:7)
+5 verbose stack     at Pipe._handle.close [as _onclose] (net.js:498:12)
+6 verbose cwd /Users/xavierluiz/projects/swdc-atom-project
+7 error Darwin 17.7.0
+8 error argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "version" "patch" "-m" "Prepare %s release"
+9 error node v6.9.5
+10 error npm  v3.10.10
+11 error Git working directory not clean.
+11 error M lib/Activator.js
+11 error M lib/KeystrokeManager.js
+11 error M lib/SessionManager.js
+11 error D node_modules/.bin/sshpk-conv
+11 error D node_modules/.bin/sshpk-sign
+11 error D node_modules/.bin/sshpk-verify
+11 error D node_modules/.bin/uuid
+11 error D node_modules/ajv/.tonic_example.js
+11 error D node_modules/ajv/LICENSE
+11 error D node_modules/ajv/README.md
+11 error D node_modules/ajv/dist/ajv.bundle.js
+11 error D node_modules/ajv/dist/ajv.min.js
+11 error D node_modules/ajv/dist/ajv.min.js.map
+11 error D node_modules/ajv/dist/nodent.min.js
+11 error D node_modules/ajv/dist/regenerator.min.js
+11 error D node_modules/ajv/lib/$data.js
+11 error D node_modules/ajv/lib/ajv.d.ts
+11 error D node_modules/ajv/lib/ajv.js
+11 error D node_modules/ajv/lib/cache.js
+11 error D node_modules/ajv/lib/compile/_rules.js
+11 error D node_modules/ajv/lib/compile/async.js
+11 error D node_modules/ajv/lib/compile/equal.js
+11 error D node_modules/ajv/lib/compile/error_classes.js
+11 error D node_modules/ajv/lib/compile/formats.js
+11 error D node_modules/ajv/lib/compile/index.js
+11 error D node_modules/ajv/lib/compile/resolve.js
+11 error D node_modules/ajv/lib/compile/rules.js
+11 error D node_modules/ajv/lib/compile/schema_obj.js
+11 error D node_modules/ajv/lib/compile/ucs2length.js
+11 error D node_modules/ajv/lib/compile/util.js
+11 error D node_modules/ajv/lib/dot/_limit.jst
+11 error D node_modules/ajv/lib/dot/_limitItems.jst
+11 error D node_modules/ajv/lib/dot/_limitLength.jst
+11 error D node_modules/ajv/lib/dot/_limitProperties.jst
+11 error D node_modules/ajv/lib/dot/allOf.jst
+11 error D node_modules/ajv/lib/dot/anyOf.jst
+11 error D node_modules/ajv/lib/dot/coerce.def
+11 error D node_modules/ajv/lib/dot/const.jst
+11 error D node_modules/ajv/lib/dot/contains.jst
+11 error D node_modules/ajv/lib/dot/custom.jst
+11 error D node_modules/ajv/lib/dot/defaults.def
+11 error D node_modules/ajv/lib/dot/definitions.def
+11 error D node_modules/ajv/lib/dot/dependencies.jst
+11 error D node_modules/ajv/lib/dot/enum.jst
+11 error D node_modules/ajv/lib/dot/errors.def
+11 error D node_modules/ajv/lib/dot/format.jst
+11 error D node_modules/ajv/lib/dot/items.jst
+11 error D node_modules/ajv/lib/dot/missing.def
+11 error D node_modules/ajv/lib/dot/multipleOf.jst
+11 error D node_modules/ajv/lib/dot/not.jst
+11 error D node_modules/ajv/lib/dot/oneOf.jst
+11 error D node_modules/ajv/lib/dot/pattern.jst
+11 error D node_modules/ajv/lib/dot/properties.jst
+11 error D node_modules/ajv/lib/dot/propertyNames.jst
+11 error D node_modules/ajv/lib/dot/ref.jst
+11 error D node_modules/ajv/lib/dot/required.jst
+11 error D node_modules/ajv/lib/dot/uniqueItems.jst
+11 error D node_modules/ajv/lib/dot/validate.jst
+11 error D node_modules/ajv/lib/dotjs/README.md
+11 error D node_modules/ajv/lib/dotjs/_limit.js
+11 error D node_modules/ajv/lib/dotjs/_limitItems.js
+11 error D node_modules/ajv/lib/dotjs/_limitLength.js
+11 error D node_modules/ajv/lib/dotjs/_limitProperties.js
+11 error D node_modules/ajv/lib/dotjs/allOf.js
+11 error D node_modules/ajv/lib/dotjs/anyOf.js
+11 error D node_modules/ajv/lib/dotjs/const.js
+11 error D node_modules/ajv/lib/dotjs/contains.js
+11 error D node_modules/ajv/lib/dotjs/custom.js
+11 error D node_modules/ajv/lib/dotjs/dependencies.js
+11 error D node_modules/ajv/lib/dotjs/enum.js
+11 error D node_modules/ajv/lib/dotjs/format.js
+11 error D node_modules/ajv/lib/dotjs/items.js
+11 error D node_modules/ajv/lib/dotjs/multipleOf.js
+11 error D node_modules/ajv/lib/dotjs/not.js
+11 error D node_modules/ajv/lib/dotjs/oneOf.js
+11 error D node_modules/ajv/lib/dotjs/pattern.js
+11 error D node_modules/ajv/lib/dotjs/properties.js
+11 error D node_modules/ajv/lib/dotjs/propertyNames.js
+11 error D node_modules/ajv/lib/dotjs/ref.js
+11 error D node_modules/ajv/lib/dotjs/required.js
+11 error D node_modules/ajv/lib/dotjs/uniqueItems.js
+11 error D node_modules/ajv/lib/dotjs/validate.js
+11 error D node_modules/ajv/lib/keyword.js
+11 error D node_modules/ajv/lib/patternGroups.js
+11 error D node_modules/ajv/lib/refs/$data.json
+11 error D node_modules/ajv/lib/refs/json-schema-draft-04.json
+11 error D node_modules/ajv/lib/refs/json-schema-draft-06.json
+11 error D node_modules/ajv/lib/refs/json-schema-v5.json
+11 error D node_modules/ajv/package.json
+11 error D node_modules/ajv/scripts/.eslintrc.yml
+11 error D node_modules/ajv/scripts/bundle.js
+11 error D node_modules/ajv/scripts/compile-dots.js
+11 error D node_modules/ajv/scripts/info
+11 error D node_modules/ajv/scripts/prepare-tests
+11 error D node_modules/ajv/scripts/travis-gh-pages
+11 error D node_modules/asn1/.npmignore
+11 error D node_modules/asn1/.travis.yml
+11 error D node_modules/asn1/LICENSE
+11 error D node_modules/asn1/README.md
+11 error D node_modules/asn1/lib/ber/errors.js
+11 error D node_modules/asn1/lib/ber/index.js
+11 error D node_modules/asn1/lib/ber/reader.js
+11 error D node_modules/asn1/lib/ber/types.js
+11 error D node_modules/asn1/lib/ber/writer.js
+11 error D node_modules/asn1/lib/index.js
+11 error D node_modules/asn1/package.json
+11 error D node_modules/asn1/tst/ber/reader.test.js
+11 error D node_modules/asn1/tst/ber/writer.test.js
+11 error D node_modules/assert-plus/AUTHORS
+11 error D node_modules/assert-plus/CHANGES.md
+11 error D node_modules/assert-plus/README.md
+11 error D node_modules/assert-plus/assert.js
+11 error D node_modules/assert-plus/package.json
+11 error D node_modules/asynckit/LICENSE
+11 error D node_modules/asynckit/README.md
+11 error D node_modules/asynckit/bench.js
+11 error D node_modules/asynckit/index.js
+11 error D node_modules/asynckit/lib/abort.js
+11 error D node_modules/asynckit/lib/async.js
+11 error D node_modules/asynckit/lib/defer.js
+11 error D node_modules/asynckit/lib/iterate.js
+11 error D node_modules/asynckit/lib/readable_asynckit.js
+11 error D node_modules/asynckit/lib/readable_parallel.js
+11 error D node_modules/asynckit/lib/readable_serial.js
+11 error D node_modules/asynckit/lib/readable_serial_ordered.js
+11 error D node_modules/asynckit/lib/state.js
+11 error D node_modules/asynckit/lib/streamify.js
+11 error D node_modules/asynckit/lib/terminator.js
+11 error D node_modules/asynckit/package.json
+11 error D node_modules/asynckit/parallel.js
+11 error D node_modules/asynckit/serial.js
+11 error D node_modules/asynckit/serialOrdered.js
+11 error D node_modules/asynckit/stream.js
+11 error D node_modules/aws-sign2/LICENSE
+11 error D node_modules/aws-sign2/README.md
+11 error D node_modules/aws-sign2/index.js
+11 error D node_modules/aws-sign2/package.json
+11 error D node_modules/aws4/.travis.yml
+11 error D node_modules/aws4/LICENSE
+11 error D node_modules/aws4/README.md
+11 error D node_modules/aws4/aws4.js
+11 error D node_modules/aws4/lru.js
+11 error D node_modules/aws4/package.json
+11 error D node_modules/bcrypt-pbkdf/README.md
+11 error D node_modules/bcrypt-pbkdf/index.js
+11 error D node_modules/bcrypt-pbkdf/package.json
+11 error D node_modules/boom/LICENSE
+11 error D node_modules/boom/README.md
+11 error D node_modules/boom/lib/index.js
+11 error D node_modules/boom/package.json
+11 error D node_modules/caseless/LICENSE
+11 error D node_modules/caseless/README.md
+11 error D node_modules/caseless/index.js
+11 error D node_modules/caseless/package.json
+11 error D node_modules/caseless/test.js
+11 error D node_modules/co/History.md
+11 error D node_modules/co/LICENSE
+11 error D node_modules/co/Readme.md
+11 error D node_modules/co/index.js
+11 error D node_modules/co/package.json
+11 error D node_modules/combined-stream/License
+11 error D node_modules/combined-stream/Readme.md
+11 error D node_modules/combined-stream/lib/combined_stream.js
+11 error D node_modules/combined-stream/lib/defer.js
+11 error D node_modules/combined-stream/package.json
+11 error D node_modules/core-util-is/LICENSE
+11 error D node_modules/core-util-is/README.md
+11 error D node_modules/core-util-is/float.patch
+11 error D node_modules/core-util-is/lib/util.js
+11 error D node_modules/core-util-is/package.json
+11 error D node_modules/core-util-is/test.js
+11 error D node_modules/cryptiles/.npmignore
+11 error D node_modules/cryptiles/LICENSE
+11 error D node_modules/cryptiles/README.md
+11 error D node_modules/cryptiles/lib/index.js
+11 error D node_modules/cryptiles/node_modules/boom/LICENSE
+11 error D node_modules/cryptiles/node_modules/boom/README.md
+11 error D node_modules/cryptiles/node_modules/boom/lib/index.js
+11 error D node_modules/cryptiles/node_modules/boom/package.json
+11 error D node_modules/cryptiles/package.json
+11 error D node_modules/dashdash/CHANGES.md
+11 error D node_modules/dashdash/LICENSE.txt
+11 error D node_modules/dashdash/README.md
+11 error D node_modules/dashdash/etc/dashdash.bash_completion.in
+11 error D node_modules/dashdash/lib/dashdash.js
+11 error D node_modules/dashdash/package.json
+11 error D node_modules/delayed-stream/.npmignore
+11 error D node_modules/delayed-stream/License
+11 error D node_modules/delayed-stream/Makefile
+11 error D node_modules/delayed-stream/Readme.md
+11 error D node_modules/delayed-stream/lib/delayed_stream.js
+11 error D node_modules/delayed-stream/package.json
+11 error D node_modules/ecc-jsbn/.npmignore
+11 error D node_modules/ecc-jsbn/LICENSE
+11 error D node_modules/ecc-jsbn/README.md
+11 error D node_modules/ecc-jsbn/index.js
+11 error D node_modules/ecc-jsbn/lib/LICENSE-jsbn
+11 error D node_modules/ecc-jsbn/lib/ec.js
+11 error D node_modules/ecc-jsbn/lib/sec.js
+11 error D node_modules/ecc-jsbn/package.json
+11 error D node_modules/ecc-jsbn/test.js
+11 error D node_modules/extend/.eslintrc
+11 error D node_modules/extend/.jscs.json
+11 error D node_modules/extend/.npmignore
+11 error D node_modules/extend/.travis.yml
+11 error D node_modules/extend/CHANGELOG.md
+11 error D node_modules/extend/LICENSE
+11 error D node_modules/extend/README.md
+11 error D node_modules/extend/component.json
+11 error D node_modules/extend/index.js
+11 error D node_modules/extend/package.json
+11 error D node_modules/extsprintf/.gitmodules
+11 error D node_modules/extsprintf/.npmignore
+11 error D node_modules/extsprintf/LICENSE
+11 error D node_modules/extsprintf/Makefile
+11 error D node_modules/extsprintf/Makefile.targ
+11 error D node_modules/extsprintf/README.md
+11 error D node_modules/extsprintf/jsl.node.conf
+11 error D node_modules/extsprintf/lib/extsprintf.js
+11 error D node_modules/extsprintf/package.json
+11 error D node_modules/fast-deep-equal/LICENSE
+11 error D node_modules/fast-deep-equal/README.md
+11 error D node_modules/fast-deep-equal/index.d.ts
+11 error D node_modules/fast-deep-equal/index.js
+11 error D node_modules/fast-deep-equal/package.json
+11 error D node_modules/fast-json-stable-stringify/.eslintrc.yml
+11 error D node_modules/fast-json-stable-stringify/.npmignore
+11 error D node_modules/fast-json-stable-stringify/.travis.yml
+11 error D node_modules/fast-json-stable-stringify/LICENSE
+11 error D node_modules/fast-json-stable-stringify/README.md
+11 error D node_modules/fast-json-stable-stringify/benchmark/index.js
+11 error D node_modules/fast-json-stable-stringify/benchmark/test.json
+11 error D node_modules/fast-json-stable-stringify/example/key_cmp.js
+11 error D node_modules/fast-json-stable-stringify/example/nested.js
+11 error D node_modules/fast-json-stable-stringify/example/str.js
+11 error D node_modules/fast-json-stable-stringify/example/value_cmp.js
+11 error D node_modules/fast-json-stable-stringify/index.js
+11 error D node_modules/fast-json-stable-stringify/package.json
+11 error D node_modules/fast-json-stable-stringify/test/cmp.js
+11 error D node_modules/fast-json-stable-stringify/test/nested.js
+11 error D node_modules/fast-json-stable-stringify/test/str.js
+11 error D node_modules/fast-json-stable-stringify/test/to-json.js
+11 error D node_modules/forever-agent/LICENSE
+11 error D node_modules/forever-agent/README.md
+11 error D node_modules/forever-agent/index.js
+11 error D node_modules/forever-agent/package.json
+11 error D node_modules/form-data/License
+11 error D node_modules/form-data/README.md
+11 error D node_modules/form-data/README.md.bak
+11 error D node_modules/form-data/lib/browser.js
+11 error D node_modules/form-data/lib/form_data.js
+11 error D node_modules/form-data/lib/populate.js
+11 error D node_modules/form-data/package.json
+11 error D node_modules/getpass/.npmignore
+11 error D node_modules/getpass/.travis.yml
+11 error D node_modules/getpass/LICENSE
+11 error D node_modules/getpass/README.md
+11 error D node_modules/getpass/lib/index.js
+11 error D node_modules/getpass/package.json
+11 error D node_modules/har-schema/LICENSE
+11 error D node_modules/har-schema/README.md
+11 error D node_modules/har-schema/lib/afterRequest.json
+11 error D node_modules/har-schema/lib/beforeRequest.json
+11 error D node_modules/har-schema/lib/browser.json
+11 error D node_modules/har-schema/lib/cache.json
+11 error D node_modules/har-schema/lib/content.json
+11 error D node_modules/har-schema/lib/cookie.json
+11 error D node_modules/har-schema/lib/creator.json
+11 error D node_modules/har-schema/lib/entry.json
+11 error D node_modules/har-schema/lib/har.json
+11 error D node_modules/har-schema/lib/header.json
+11 error D node_modules/har-schema/lib/index.js
+11 error D node_modules/har-schema/lib/log.json
+11 error D node_modules/har-schema/lib/page.json
+11 error D node_modules/har-schema/lib/pageTimings.json
+11 error D node_modules/har-schema/lib/postData.json
+11 error D node_modules/har-schema/lib/query.json
+11 error D node_modules/har-schema/lib/request.json
+11 error D node_modules/har-schema/lib/response.json
+11 error D node_modules/har-schema/lib/timings.json
+11 error D node_modules/har-schema/package.json
+11 error D node_modules/har-validator/LICENSE
+11 error D node_modules/har-validator/README.md
+11 error D node_modules/har-validator/lib/async.js
+11 error D node_modules/har-validator/lib/error.js
+11 error D node_modules/har-validator/lib/promise.js
+11 error D node_modules/har-validator/package.json
+11 error D node_modules/hawk/.npmignore
+11 error D node_modules/hawk/LICENSE
+11 error D node_modules/hawk/README.md
+11 error D node_modules/hawk/client.js
+11 error D node_modules/hawk/dist/browser.js
+11 error D node_modules/hawk/lib/browser.js
+11 error D node_modules/hawk/lib/client.js
+11 error D node_modules/hawk/lib/crypto.js
+11 error D node_modules/hawk/lib/index.js
+11 error D node_modules/hawk/lib/server.js
+11 error D node_modules/hawk/lib/utils.js
+11 error D node_modules/hawk/package.json
+11 error D node_modules/hoek/.npmignore
+11 error D node_modules/hoek/LICENSE
+11 error D node_modules/hoek/README.md
+11 error D node_modules/hoek/lib/escape.js
+11 error D node_modules/hoek/lib/index.js
+11 error D node_modules/hoek/package.json
+11 error D node_modules/http-signature/.dir-locals.el
+11 error D node_modules/http-signature/.npmignore
+11 error D node_modules/http-signature/CHANGES.md
+11 error D node_modules/http-signature/LICENSE
+11 error D node_modules/http-signature/README.md
+11 error D node_modules/http-signature/http_signing.md
+11 error D node_modules/http-signature/lib/index.js
+11 error D node_modules/http-signature/lib/parser.js
+11 error D node_modules/http-signature/lib/signer.js
+11 error D node_modules/http-signature/lib/utils.js
+11 error D node_modules/http-signature/lib/verify.js
+11 error D node_modules/http-signature/package.json
+11 error D node_modules/is-typedarray/LICENSE.md
+11 error D node_modules/is-typedarray/README.md
+11 error D node_modules/is-typedarray/index.js
+11 error D node_modules/is-typedarray/package.json
+11 error D node_modules/is-typedarray/test.js
+11 error D node_modules/isstream/.jshintrc
+11 error D node_modules/isstream/.npmignore
+11 error D node_modules/isstream/.travis.yml
+11 error D node_modules/isstream/LICENSE.md
+11 error D node_modules/isstream/README.md
+11 error D node_modules/isstream/isstream.js
+11 error D node_modules/isstream/package.json
+11 error D node_modules/isstream/test.js
+11 error D node_modules/jsbn/.npmignore
+11 error D node_modules/jsbn/LICENSE
+11 error D node_modules/jsbn/README.md
+11 error D node_modules/jsbn/example.html
+11 error D node_modules/jsbn/example.js
+11 error D node_modules/jsbn/index.js
+11 error D node_modules/jsbn/package.json
+11 error D node_modules/json-schema-traverse/.eslintrc.yml
+11 error D node_modules/json-schema-traverse/.npmignore
+11 error D node_modules/json-schema-traverse/.travis.yml
+11 error D node_modules/json-schema-traverse/LICENSE
+11 error D node_modules/json-schema-traverse/README.md
+11 error D node_modules/json-schema-traverse/index.js
+11 error D node_modules/json-schema-traverse/package.json
+11 error D node_modules/json-schema-traverse/spec/.eslintrc.yml
+11 error D node_modules/json-schema-traverse/spec/fixtures/schema.js
+11 error D node_modules/json-schema-traverse/spec/index.spec.js
+11 error D node_modules/json-schema/README.md
+11 error D node_modules/json-schema/draft-00/hyper-schema
+11 error D node_modules/json-schema/draft-00/json-ref
+11 error D node_modules/json-schema/draft-00/links
+11 error D node_modules/json-schema/draft-00/schema
+11 error D node_modules/json-schema/draft-01/hyper-schema
+11 error D node_modules/json-schema/draft-01/json-ref
+11 error D node_modules/json-schema/draft-01/links
+11 error D node_modules/json-schema/draft-01/schema
+11 error D node_modules/json-schema/draft-02/hyper-schema
+11 error D node_modules/json-schema/draft-02/json-ref
+11 error D node_modules/json-schema/draft-02/links
+11 error D node_modules/json-schema/draft-02/schema
+11 error D node_modules/json-schema/draft-03/examples/address
+11 error D node_modules/json-schema/draft-03/examples/calendar
+11 error D node_modules/json-schema/draft-03/examples/card
+11 error D node_modules/json-schema/draft-03/examples/geo
+11 error D node_modules/json-schema/draft-03/examples/interfaces
+11 error D node_modules/json-schema/draft-03/hyper-schema
+11 error D node_modules/json-schema/draft-03/json-ref
+11 error D node_modules/json-schema/draft-03/links
+11 error D node_modules/json-schema/draft-03/schema
+11 error D node_modules/json-schema/draft-04/hyper-schema
+11 error D node_modules/json-schema/draft-04/links
+11 error D node_modules/json-schema/draft-04/schema
+11 error D node_modules/json-schema/draft-zyp-json-schema-03.xml
+11 error D node_modules/json-schema/draft-zyp-json-schema-04.xml
+11 error D node_modules/json-schema/lib/links.js
+11 error D node_modules/json-schema/lib/validate.js
+11 error D node_modules/json-schema/package.json
+11 error D node_modules/json-schema/test/tests.js
+11 error D node_modules/json-stringify-safe/.npmignore
+11 error D node_modules/json-stringify-safe/CHANGELOG.md
+11 error D node_modules/json-stringify-safe/LICENSE
+11 error D node_modules/json-stringify-safe/Makefile
+11 error D node_modules/json-stringify-safe/README.md
+11 error D node_modules/json-stringify-safe/package.json
+11 error D node_modules/json-stringify-safe/stringify.js
+11 error D node_modules/json-stringify-safe/test/mocha.opts
+11 error D node_modules/json-stringify-safe/test/stringify_test.js
+11 error D node_modules/jsprim/CHANGES.md
+11 error D node_modules/jsprim/CONTRIBUTING.md
+11 error D node_modules/jsprim/LICENSE
+11 error D node_modules/jsprim/README.md
+11 error D node_modules/jsprim/lib/jsprim.js
+11 error D node_modules/jsprim/package.json
+11 error D node_modules/mime-db/HISTORY.md
+11 error D node_modules/mime-db/LICENSE
+11 error D node_modules/mime-db/README.md
+11 error D node_modules/mime-db/db.json
+11 error D node_modules/mime-db/index.js
+11 error D node_modules/mime-db/package.json
+11 error D node_modules/mime-types/HISTORY.md
+11 error D node_modules/mime-types/LICENSE
+11 error D node_modules/mime-types/README.md
+11 error D node_modules/mime-types/index.js
+11 error D node_modules/mime-types/package.json
+11 error D node_modules/oauth-sign/LICENSE
+11 error D node_modules/oauth-sign/README.md
+11 error D node_modules/oauth-sign/index.js
+11 error D node_modules/oauth-sign/package.json
+11 error D node_modules/performance-now/.npmignore
+11 error D node_modules/performance-now/.tm_properties
+11 error D node_modules/performance-now/.travis.yml
+11 error D node_modules/performance-now/README.md
+11 error D node_modules/performance-now/lib/performance-now.js
+11 error D node_modules/performance-now/lib/performance-now.js.map
+11 error D node_modules/performance-now/license.txt
+11 error D node_modules/performance-now/package.json
+11 error D node_modules/performance-now/src/index.d.ts
+11 error D node_modules/performance-now/src/performance-now.coffee
+11 error D node_modules/performance-now/test/mocha.opts
+11 error D node_modules/performance-now/test/performance-now.coffee
+11 error D node_modules/performance-now/test/scripts.coffee
+11 error D node_modules/performance-now/test/scripts/delayed-call.coffee
+11 error D node_modules/performance-now/test/scripts/delayed-require.coffee
+11 error D node_modules/performance-now/test/scripts/difference.coffee
+11 error D node_modules/performance-now/test/scripts/initial-value.coffee
+11 error D node_modules/punycode/LICENSE-MIT.txt
+11 error D node_modules/punycode/README.md
+11 error D node_modules/punycode/package.json
+11 error D node_modules/punycode/punycode.js
+11 error D node_modules/qs/.editorconfig
+11 error D node_modules/qs/.eslintignore
+11 error D node_modules/qs/.eslintrc
+11 error D node_modules/qs/CHANGELOG.md
+11 error D node_modules/qs/LICENSE
+11 error D node_modules/qs/README.md
+11 error D node_modules/qs/dist/qs.js
+11 error D node_modules/qs/lib/formats.js
+11 error D node_modules/qs/lib/index.js
+11 error D node_modules/qs/lib/parse.js
+11 error D node_modules/qs/lib/stringify.js
+11 error D node_modules/qs/lib/utils.js
+11 error D node_modules/qs/package.json
+11 error D node_modules/qs/test/.eslintrc
+11 error D node_modules/qs/test/index.js
+11 error D node_modules/qs/test/parse.js
+11 error D node_modules/qs/test/stringify.js
+11 error D node_modules/qs/test/utils.js
+11 error D node_modules/request/CHANGELOG.md
+11 error D node_modules/request/LICENSE
+11 error D node_modules/request/README.md
+11 error D node_modules/request/index.js
+11 error D node_modules/request/lib/auth.js
+11 error D node_modules/request/lib/cookies.js
+11 error D node_modules/request/lib/getProxyFromURI.js
+11 error D node_modules/request/lib/har.js
+11 error D node_modules/request/lib/helpers.js
+11 error D node_modules/request/lib/multipart.js
+11 error D node_modules/request/lib/oauth.js
+11 error D node_modules/request/lib/querystring.js
+11 error D node_modules/request/lib/redirect.js
+11 error D node_modules/request/lib/tunnel.js
+11 error D node_modules/request/package.json
+11 error D node_modules/request/request.js
+11 error D node_modules/safe-buffer/LICENSE
+11 error D node_modules/safe-buffer/README.md
+11 error D node_modules/safe-buffer/index.d.ts
+11 error D node_modules/safe-buffer/index.js
+11 error D node_modules/safe-buffer/package.json
+11 error D node_modules/sntp/.npmignore
+11 error D node_modules/sntp/LICENSE
+11 error D node_modules/sntp/README.md
+11 error D node_modules/sntp/lib/index.js
+11 error D node_modules/sntp/package.json
+11 error D node_modules/sshpk/.npmignore
+11 error D node_modules/sshpk/.travis.yml
+11 error D node_modules/sshpk/LICENSE
+11 error D node_modules/sshpk/README.md
+11 error D node_modules/sshpk/bin/sshpk-conv
+11 error D node_modules/sshpk/bin/sshpk-sign
+11 error D node_modules/sshpk/bin/sshpk-verify
+11 error D node_modules/sshpk/lib/algs.js
+11 error D node_modules/sshpk/lib/certificate.js
+11 error D node_modules/sshpk/lib/dhe.js
+11 error D node_modules/sshpk/lib/ed-compat.js
+11 error D node_modules/sshpk/lib/errors.js
+11 error D node_modules/sshpk/lib/fingerprint.js
+11 error D node_modules/sshpk/lib/formats/auto.js
+11 error D node_modules/sshpk/lib/formats/dnssec.js
+11 error D node_modules/sshpk/lib/formats/openssh-cert.js
+11 error D node_modules/sshpk/lib/formats/pem.js
+11 error D node_modules/sshpk/lib/formats/pkcs1.js
+11 error D node_modules/sshpk/lib/formats/pkcs8.js
+11 error D node_modules/sshpk/lib/formats/rfc4253.js
+11 error D node_modules/sshpk/lib/formats/ssh-private.js
+11 error D node_modules/sshpk/lib/formats/ssh.js
+11 error D node_modules/sshpk/lib/formats/x509-pem.js
+11 error D node_modules/sshpk/lib/formats/x509.js
+11 error D node_modules/sshpk/lib/identity.js
+11 error D node_modules/sshpk/lib/index.js
+11 error D node_modules/sshpk/lib/key.js
+11 error D node_modules/sshpk/lib/private-key.js
+11 error D node_modules/sshpk/lib/signature.js
+11 error D node_modules/sshpk/lib/ssh-buffer.js
+11 error D node_modules/sshpk/lib/utils.js
+11 error D node_modules/sshpk/man/man1/sshpk-conv.1
+11 error D node_modules/sshpk/man/man1/sshpk-sign.1
+11 error D node_modules/sshpk/man/man1/sshpk-verify.1
+11 error D node_modules/sshpk/package.json
+11 error D node_modules/stringstream/.travis.yml
+11 error D node_modules/stringstream/LICENSE.txt
+11 error D node_modules/stringstream/README.md
+11 error D node_modules/stringstream/example.js
+11 error D node_modules/stringstream/package.json
+11 error D node_modules/stringstream/stringstream.js
+11 error D node_modules/tough-cookie/LICENSE
+11 error D node_modules/tough-cookie/README.md
+11 error D node_modules/tough-cookie/lib/cookie.js
+11 error D node_modules/tough-cookie/lib/memstore.js
+11 error D node_modules/tough-cookie/lib/pathMatch.js
+11 error D node_modules/tough-cookie/lib/permuteDomain.js
+11 error D node_modules/tough-cookie/lib/pubsuffix.js
+11 error D node_modules/tough-cookie/lib/store.js
+11 error D node_modules/tough-cookie/package.json
+11 error D node_modules/tunnel-agent/LICENSE
+11 error D node_modules/tunnel-agent/README.md
+11 error D node_modules/tunnel-agent/index.js
+11 error D node_modules/tunnel-agent/package.json
+11 error D node_modules/tweetnacl/.npmignore
+11 error D node_modules/tweetnacl/AUTHORS.md
+11 error D node_modules/tweetnacl/CHANGELOG.md
+11 error D node_modules/tweetnacl/LICENSE
+11 error D node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md
+11 error D node_modules/tweetnacl/README.md
+11 error D node_modules/tweetnacl/nacl-fast.js
+11 error D node_modules/tweetnacl/nacl-fast.min.js
+11 error D node_modules/tweetnacl/nacl.d.ts
+11 error D node_modules/tweetnacl/nacl.js
+11 error D node_modules/tweetnacl/nacl.min.js
+11 error D node_modules/tweetnacl/package.json
+11 error D node_modules/uuid/.eslintrc.json
+11 error D node_modules/uuid/AUTHORS
+11 error D node_modules/uuid/CHANGELOG.md
+11 error D node_modules/uuid/LICENSE.md
+11 error D node_modules/uuid/README.md
+11 error D node_modules/uuid/README_js.md
+11 error D node_modules/uuid/bin/uuid
+11 error D node_modules/uuid/index.js
+11 error D node_modules/uuid/lib/bytesToUuid.js
+11 error D node_modules/uuid/lib/md5-browser.js
+11 error D node_modules/uuid/lib/md5.js
+11 error D node_modules/uuid/lib/rng-browser.js
+11 error D node_modules/uuid/lib/rng.js
+11 error D node_modules/uuid/lib/sha1-browser.js
+11 error D node_modules/uuid/lib/sha1.js
+11 error D node_modules/uuid/lib/v35.js
+11 error D node_modules/uuid/package.json
+11 error D node_modules/uuid/v1.js
+11 error D node_modules/uuid/v3.js
+11 error D node_modules/uuid/v4.js
+11 error D node_modules/uuid/v5.js
+11 error D node_modules/verror/.npmignore
+11 error D node_modules/verror/CHANGES.md
+11 error D node_modules/verror/CONTRIBUTING.md
+11 error D node_modules/verror/LICENSE
+11 error D node_modules/verror/README.md
+11 error D node_modules/verror/lib/verror.js
+11 error D node_modules/verror/package.json
+11 error M package.json
+11 error M yarn.lock
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
