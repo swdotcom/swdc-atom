@@ -1,9 +1,8 @@
 {
   "name": "Software",
   "main": "./lib/Activator",
-  "version": "0.3.58",
-  "description":
-    "It's code time! We collect data across tools to help you code smarter.",
+  "version": "0.3.59",
+  "description": "It's code time! We collect data across tools to help you code smarter.",
   "keywords": [
     "code time",
     "time",
@@ -18,8 +17,7 @@
     "analytics"
   ],
   "repository": "https://github.com/swdotcom/swdc-atom",
-  "license":
-    "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
+  "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
