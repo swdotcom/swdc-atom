@@ -1,7 +1,7 @@
 {
   "name": "code-time",
   "main": "./lib/Activator",
-  "version": "0.3.62",
+  "version": "0.3.63",
   "description": "It's code time! We collect data across tools to help you code smarter.",
   "keywords": [
     "code time",
