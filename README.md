@@ -1,14 +1,14 @@
-# *Software* for Atom
+# _Code Time_ for Atom
 
-## Measure your coding activity in real time 
+## Measure your coding activity in real time
 
-*Software* shows you your coding activity to help you increase flow, decrease interrupts, and improve work-life balance. 
+_Code Time_ shows you your coding activity to help you increase flow, decrease interrupts, and improve work-life balance.
 
 It takes just a minute to install our plugin for Atom (see the [setup instructions](https://www.software.com/text-editors-and-ides/atom)).
 
 ### See your coding intensity
 
-Our plugin for Atom features a status bar that shows your keystrokes per minute (KPM) for your last minute of activity. We show a rocket icon if your KPM is equal to or above your average KPM per day for the last 90 days--a subtle reminder of your relative coding focus and intensity. 
+Our plugin for Atom features a status bar that shows your keystrokes per minute (KPM) for your last minute of activity. We show a rocket icon if your KPM is equal to or above your average KPM per day for the last 90 days--a subtle reminder of your relative coding focus and intensity.
 
 ![Atom status bar](https://uploads-ssl.webflow.com/5b589ab81371d7c6ffc8d17a/5b8cc5378555848fb77ca299_atom-status-bar.png)
 
