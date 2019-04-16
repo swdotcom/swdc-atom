@@ -1,6 +1,5 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "swdc-atom:toggle",
-    "ctrl-t ctrl-t": "Code-Time:toggle-status-bar-metrics"
   }
 }
