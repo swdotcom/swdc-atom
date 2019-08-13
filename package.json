@@ -1,33 +1,66 @@
 {
-  "name": "code-time",
-  "main": "./lib/Activator",
-  "version": "0.9.0",
-  "description": "It's code time! We collect data across tools to help you code smarter.",
-  "keywords": [
-    "code time",
-    "time",
-    "software",
-    "software.com",
-    "code insights",
-    "productivity",
-    "coding activity",
-    "virtual manager",
-    "keystrokes",
-    "calendar",
-    "analytics"
-  ],
-  "repository": "https://github.com/swdotcom/swdc-atom",
-  "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "configSchema": {
-    "showMusicMetrics": {
-      "title": "Show Code Time music metrics",
-      "description": "Code Time weekly music metrics and the top 40",
-      "type": "boolean",
-      "default": false,
-      "order": 1
+    "name": "music-time",
+    "main": "./lib/Activator",
+    "version": "0.2.4",
+    "description": "Music Time is an open source plugin that curates and launches playlists for coding right from your editor.",
+    "keywords": [
+        "code time",
+        "time",
+        "software",
+        "software.com",
+        "code insights",
+        "productivity",
+        "coding activity",
+        "virtual manager",
+        "keystrokes",
+        "calendar",
+        "analytics"
+    ],
+    "repository": "https://github.com/swdotcom/swdc-atom",
+    "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "configSchema": {
+        "showMusicMetrics": {
+            "title": "Show Code Time music metrics",
+            "description": "Code Time weekly music metrics and the top 40",
+            "type": "boolean",
+            "default": false,
+            "order": 1
+        },
+        "showGitMetrics": {
+            "title": "Show Code Time git metrics",
+            "description": "Code Time weekly git commit metrics",
+            "type": "boolean",
+            "default": false,
+            "order": 2
+        },
+        "showWeeklyRanking": {
+            "title": "Show Code Time weekly rankings",
+            "description": "Code Time weekly user rankings",
+            "type": "boolean",
+            "default": false,
+            "order": 3
+        }
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "cody-music": "^2.6.25",
+        "crypto": "^1.0.1",
+        "font-awesome": "^4.7.0",
+        "itunes-node-applescript": "0.3.5",
+        "jquery": "3.4.1",
+        "moment-timezone": "^0.5.25",
+        "open": "6.3.0",
+        "spotify-node-applescript": "1.1.1",
+        "status-bar": "^2.0.3",
+        "lodash": "^4.17.10",
+        "vue": "1.0.27-csp",
+        "css": "^2.2.1",
+        "esprima": "^4.0.0",
+        "htmlparser2": "^3.9.2",
+        "jsctags": "latest"
     },
     "showGitMetrics": {
       "title": "Show Code Time git metrics",
@@ -43,22 +76,8 @@
       "default": false,
       "order": 3
     }
-  },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "crypto": "^1.0.1",
-    "fs-plus": "^3.0.0",
-    "itunes-node-applescript": "0.3.5",
-    "jquery": "3.4.1",
-    "minimatch": "^3.0.2",
-    "moment-timezone": "^0.5.25",
-    "node-gyp": "^5.0.3",
-    "open": "6.3.0",
-    "spotify-node-applescript": "1.1.1",
-    "status-bar": "^2.0.3",
-    "temp": "~0.9.0",
-    "underscore-plus": "^1.0.0"
-  },
+  ,
+
   "devDependencies": {
     "coffeelint": "^1.9.7",
     "standard": "^11.0.1"
