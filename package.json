@@ -54,69 +54,205 @@
         "moment-timezone": "^0.5.25",
         "open": "6.3.0",
         "spotify-node-applescript": "1.1.1",
-        "status-bar": "^2.0.3",
-        "lodash": "^4.17.10",
-        "vue": "1.0.27-csp",
-        "css": "^2.2.1",
-        "esprima": "^4.0.0",
-        "htmlparser2": "^3.9.2",
-        "jsctags": "latest"
+        "status-bar": "^2.0.3"
     },
-    "showGitMetrics": {
-      "title": "Show Code Time git metrics",
-      "description": "Code Time weekly git commit metrics",
-      "type": "boolean",
-      "default": false,
-      "order": 2
+    "devDependencies": {
+        "typescript": "^2.7.2"
     },
-    "showWeeklyRanking": {
-      "title": "Show Code Time weekly rankings",
-      "description": "Code Time weekly user rankings",
-      "type": "boolean",
-      "default": false,
-      "order": 3
-    }
-  ,
-
-  "devDependencies": {
-    "coffeelint": "^1.9.7",
-    "standard": "^11.0.1"
-  },
-  "deserializers": {
-    "TreeView": "getTreeViewInstance"
-  },
-  "consumedServices": {
-    "atom.file-icons": {
-      "versions": {
-        "1.0.0": "consumeFileIcons"
-      }
+    "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "Code Time",
+            "properties": {
+                "showMusicMetrics": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Music metrics"
+                },
+                "showGitMetrics": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Git metrics"
+                },
+                "showWeeklyRanking": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Weekly Ranking"
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "musictime.next",
+                "title": "Play Next Song"
+            },
+            {
+                "command": "musictime.previous",
+                "title": "Play Previous Song"
+            },
+            {
+                "command": "musictime.play",
+                "title": "Play",
+                "icon": {
+                    "light": "resources/light/play-button.svg",
+                    "dark": "resources/dark/play-button.svg"
+                }
+            },
+            {
+                "command": "musictime.copyTrack",
+                "title": "Copy Track Link",
+                "icon": {
+                    "light": "resources/light/icons8-copy-to-clipboard-16.png",
+                    "dark": "resources/dark/icons8-copy-to-clipboard-16.png"
+                }
+            },
+            {
+                "command": "musictime.copyPlaylist",
+                "title": "Copy Playlist Link",
+                "icon": {
+                    "light": "resources/light/icons8-copy-to-clipboard-16.png",
+                    "dark": "resources/dark/icons8-copy-to-clipboard-16.png"
+                }
+            },
+            {
+                "command": "musictime.shareTrack",
+                "title": "Share Track",
+                "icon": {
+                    "light": "resources/light/share.svg",
+                    "dark": "resources/dark/share.svg"
+                }
+            },
+            {
+                "command": "musictime.sharePlaylist",
+                "title": "Share Playlist",
+                "icon": {
+                    "light": "resources/light/share.svg",
+                    "dark": "resources/dark/share.svg"
+                }
+            },
+            {
+                "command": "musictime.pause",
+                "title": "Pause",
+                "icon": {
+                    "light": "resources/light/pause-button.svg",
+                    "dark": "resources/dark/pause-button.svg"
+                }
+            },
+            {
+                "command": "musictime.itunesPlaylist",
+                "title": "Switch to iTunes",
+                "icon": {
+                    "light": "resources/light/icons8-itunes.svg",
+                    "dark": "resources/dark/icons8-itunes.svg"
+                }
+            },
+            {
+                "command": "musictime.spotifyPlaylist",
+                "title": "Switch to Spotify",
+                "icon": {
+                    "light": "resources/light/icons8-spotify.svg",
+                    "dark": "resources/dark/icons8-spotify.svg"
+                }
+            },
+            {
+                "command": "musictime.refreshReconcile",
+                "title": "Refresh Playlists",
+                "icon": {
+                    "light": "resources/light/refresh.svg",
+                    "dark": "resources/dark/refresh.svg"
+                }
+            },
+            {
+                "command": "musictime.like",
+                "title": "Like Song"
+            },
+            {
+                "command": "musictime.unlike",
+                "title": "Unlike Song"
+            },
+            {
+                "command": "musictime.menu",
+                "title": "Click to see more from Music Time"
+            },
+            {
+                "command": "musictime.currentSong",
+                "title": "Click to view track"
+            },
+            {
+                "command": "musictime.connectSpotify",
+                "title": "Connect your Spotify account",
+                "tooltip": "Connect your Spotify account to view your playlists"
+            },
+            {
+                "command": "musictime.disconnectSpotify",
+                "title": "Disconnect your Spotify account",
+                "tooltip": "Disconnect your Spotify account"
+            },
+            {
+                "command": "musictime.refreshPlaylist",
+                "title": "Refresh"
+            },
+            {
+                "command": "musictime.refreshSettings",
+                "title": "Refresh"
+            }
+        ],
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "music-time",
+                    "title": "Music Time",
+                    "icon": "resources/dark/headphone-symbol.svg"
+                }
+            ]
+        },
+        "views": {
+            "music-time": [
+                {
+                    "id": "music-time-playlists",
+                    "name": "Music Time"
+                },
+                {
+                    "id": "my-playlists",
+                    "name": "My Playlists"
+                },
+                {
+                    "id": "music-time-players",
+                    "name": "Players"
+                }
+            ]
+        },
+        "menus": {
+            "view/item/context": [
+                {
+                    "command": "musictime.play",
+                    "when": "viewItem =~ /.*item-paused$/",
+                    "group": "inline"
+                },
+                {
+                    "command": "musictime.pause",
+                    "when": "viewItem =~ /.*item-playing$/",
+                    "group": "inline"
+                },
+                {
+                    "command": "musictime.sharePlaylist",
+                    "when": "viewItem =~ /playlist-item.*/",
+                    "group": "inline"
+                },
+                {
+                    "command": "musictime.shareTrack",
+                    "when": "viewItem =~ /track-item.*/",
+                    "group": "inline"
+                }
+            ],
+            "view/title": [
+                {
+                    "command": "musictime.refreshReconcile",
+                    "group": "navigation",
+                    "when": "view  =~ /.*-playlists/"
+                }
+            ]
+        }
     },
-    "file-icons.element-icons": {
-      "versions": {
-        "1.0.0": "consumeElementIcons"
-      }
-    }
-  },
-  "providedServices": {
-    "tree-view": {
-      "description": "A tree-like view of directories and files",
-      "versions": {
-        "1.0.0": "provideTreeView"
-      }
-    }
-  },
-  "standard": {
-    "env": [
-      "browser",
-      "node",
-      "atomtest",
-      "jasmine"
-    ],
-    "globals": [
-      "atom"
-    ],
-    "ignore": [
-      "/spec/fixtures/"
-    ]
-  }
+    "displayName": "Music Time"
 }
