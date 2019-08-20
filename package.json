@@ -51,10 +51,12 @@
         "font-awesome": "^4.7.0",
         "itunes-node-applescript": "0.3.5",
         "jquery": "3.4.1",
+        "lodash": "^4.17.15",
         "moment-timezone": "^0.5.25",
         "open": "6.3.0",
         "spotify-node-applescript": "1.1.1",
-        "status-bar": "^2.0.3"
+        "status-bar": "^2.0.3",
+        "vue": "^2.6.10"
     },
     "devDependencies": {
         "typescript": "^2.7.2"
