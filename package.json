@@ -1,5 +1,5 @@
 {
-    "name": "code-time",
+    "name": "music-time",
     "main": "./lib/Activator",
     "version": "0.2.4",
     "description": "Music Time is an open source plugin that curates and launches playlists for coding right from your editor.",
