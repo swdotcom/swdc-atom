@@ -1,33 +1,26 @@
 {
-  "name": "code-time",
-  "main": "./lib/Activator",
-  "version": "0.9.1",
-  "description": "It's code time! We collect data across tools to help you code smarter.",
-  "keywords": [
-    "code time",
-    "time",
-    "software",
-    "software.com",
-    "code insights",
-    "productivity",
-    "coding activity",
-    "virtual manager",
-    "keystrokes",
-    "calendar",
-    "analytics"
-  ],
-  "repository": "https://github.com/swdotcom/swdc-atom",
-  "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "configSchema": {
-    "showMusicMetrics": {
-      "title": "Show Code Time music metrics",
-      "description": "Code Time weekly music metrics and the top 40",
-      "type": "boolean",
-      "default": false,
-      "order": 1
+    "name": "code-time",
+    "displayName": "Code Time",
+    "main": "./lib/Activator",
+    "version": "1.1.14",
+    "description": "Code Time is an open source plugin that provides programming metrics right in Visual Studio Code.",
+    "keywords": [
+        "code time",
+        "time",
+        "software",
+        "software.com",
+        "code insights",
+        "productivity",
+        "coding activity",
+        "virtual manager",
+        "keystrokes",
+        "calendar",
+        "analytics"
+    ],
+    "repository": "https://github.com/swdotcom/swdc-atom",
+    "license": "Reproduction of this material is strictly forbidden unless prior written permission is obtained from Software.co Technologies, Inc.",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
     },
     "configSchema": {
         "showMusicMetrics": {
@@ -89,178 +82,6 @@
                 }
             }
         },
-        "commands": [
-            {
-                "command": "musictime.next",
-                "title": "Play Next Song"
-            },
-            {
-                "command": "musictime.previous",
-                "title": "Play Previous Song"
-            },
-            {
-                "command": "musictime.play",
-                "title": "Play",
-                "icon": {
-                    "light": "resources/light/play-button.svg",
-                    "dark": "resources/dark/play-button.svg"
-                }
-            },
-            {
-                "command": "musictime.copyTrack",
-                "title": "Copy Track Link",
-                "icon": {
-                    "light": "resources/light/icons8-copy-to-clipboard-16.png",
-                    "dark": "resources/dark/icons8-copy-to-clipboard-16.png"
-                }
-            },
-            {
-                "command": "musictime.copyPlaylist",
-                "title": "Copy Playlist Link",
-                "icon": {
-                    "light": "resources/light/icons8-copy-to-clipboard-16.png",
-                    "dark": "resources/dark/icons8-copy-to-clipboard-16.png"
-                }
-            },
-            {
-                "command": "musictime.shareTrack",
-                "title": "Share Track",
-                "icon": {
-                    "light": "resources/light/share.svg",
-                    "dark": "resources/dark/share.svg"
-                }
-            },
-            {
-                "command": "musictime.sharePlaylist",
-                "title": "Share Playlist",
-                "icon": {
-                    "light": "resources/light/share.svg",
-                    "dark": "resources/dark/share.svg"
-                }
-            },
-            {
-                "command": "musictime.pause",
-                "title": "Pause",
-                "icon": {
-                    "light": "resources/light/pause-button.svg",
-                    "dark": "resources/dark/pause-button.svg"
-                }
-            },
-            {
-                "command": "musictime.itunesPlaylist",
-                "title": "Switch to iTunes",
-                "icon": {
-                    "light": "resources/light/icons8-itunes.svg",
-                    "dark": "resources/dark/icons8-itunes.svg"
-                }
-            },
-            {
-                "command": "musictime.spotifyPlaylist",
-                "title": "Switch to Spotify",
-                "icon": {
-                    "light": "resources/light/icons8-spotify.svg",
-                    "dark": "resources/dark/icons8-spotify.svg"
-                }
-            },
-            {
-                "command": "musictime.refreshReconcile",
-                "title": "Refresh Playlists",
-                "icon": {
-                    "light": "resources/light/refresh.svg",
-                    "dark": "resources/dark/refresh.svg"
-                }
-            },
-            {
-                "command": "musictime.like",
-                "title": "Like Song"
-            },
-            {
-                "command": "musictime.unlike",
-                "title": "Unlike Song"
-            },
-            {
-                "command": "musictime.menu",
-                "title": "Click to see more from Music Time"
-            },
-            {
-                "command": "musictime.currentSong",
-                "title": "Click to view track"
-            },
-            {
-                "command": "musictime.connectSpotify",
-                "title": "Connect your Spotify account",
-                "tooltip": "Connect your Spotify account to view your playlists"
-            },
-            {
-                "command": "musictime.disconnectSpotify",
-                "title": "Disconnect your Spotify account",
-                "tooltip": "Disconnect your Spotify account"
-            },
-            {
-                "command": "musictime.refreshPlaylist",
-                "title": "Refresh"
-            },
-            {
-                "command": "musictime.refreshSettings",
-                "title": "Refresh"
-            }
-        ],
-        "viewsContainers": {
-            "activitybar": [
-                {
-                    "id": "music-time",
-                    "title": "Music Time",
-                    "icon": "resources/dark/headphone-symbol.svg"
-                }
-            ]
-        },
-        "views": {
-            "music-time": [
-                {
-                    "id": "music-time-playlists",
-                    "name": "Music Time"
-                },
-                {
-                    "id": "my-playlists",
-                    "name": "My Playlists"
-                },
-                {
-                    "id": "music-time-players",
-                    "name": "Players"
-                }
-            ]
-        },
-        "menus": {
-            "view/item/context": [
-                {
-                    "command": "musictime.play",
-                    "when": "viewItem =~ /.*item-paused$/",
-                    "group": "inline"
-                },
-                {
-                    "command": "musictime.pause",
-                    "when": "viewItem =~ /.*item-playing$/",
-                    "group": "inline"
-                },
-                {
-                    "command": "musictime.sharePlaylist",
-                    "when": "viewItem =~ /playlist-item.*/",
-                    "group": "inline"
-                },
-                {
-                    "command": "musictime.shareTrack",
-                    "when": "viewItem =~ /track-item.*/",
-                    "group": "inline"
-                }
-            ],
-            "view/title": [
-                {
-                    "command": "musictime.refreshReconcile",
-                    "group": "navigation",
-                    "when": "view  =~ /.*-playlists/"
-                }
-            ]
-        }
-    },
-    "displayName": "Music Time"
+        "commands": []
+    }
 }
