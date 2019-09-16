@@ -1,17 +1,17 @@
-<div class='structure-view'>
+<div class="structure-view">
   <style>
     .tree-panel {
       height: 630px;
       overflow: scroll;
     }
 
-    #tree-playlist li  {
+    #tree-playlist li {
       cursor: pointer;
       margin-bottom: 0px;
       padding: 4px 0 4px 5px;
     }
     #tree-playlist li:hover {
-        background-color: #2f333d;
+      background-color: #2f333d;
     }
 
     /* #tree-playlist li.play-list :hover {
@@ -23,11 +23,11 @@
     } */
 
     .list-tree.has-collapsable-children li.list-item {
-        position: relative;
+      position: relative;
     }
 
     .symbol-mixed-block.list-tab {
-        padding-left: 6px;
+      padding-left: 6px;
     }
 
     hr {
@@ -100,16 +100,23 @@
   <div class="vertical-menu">
     <a href="#" id="spotify-status" title="you have connected to spotify"></a>
 
-    <a href="#" id="spotify-disconnect" title="You Want to Disconnect Spotify?">Disconnect Spotify</a>
+    <a href="#" id="spotify-disconnect" title="You Want to Disconnect Spotify?"
+      >Disconnect Spotify</a
+    >
 
-    <a href="#" id="spotify-refresh-playlist" title="You Want to Refresh Custom Spotify Playlist">Refresh Custom Spotify
-      Playlist</a>
-    <hr>
-
+    <a
+      href="#"
+      id="spotify-refresh-playlist"
+      title="You Want to Refresh Custom Spotify Playlist"
+      >Refresh Custom Spotify Playlist</a
+    >
+    <hr />
   </div>
   <div class="tree-panel" v-show="!noTagHint">
-    <ol class="full-menu list-tree has-collapsable-children" id="tree-playlist">
-    </ol>
+    <ol
+      class="full-menu list-tree has-collapsable-children"
+      id="tree-playlist"
+    ></ol>
   </div>
   <!-- <div class="mask">
     <div>&nbsp;</div>
@@ -117,41 +124,48 @@
   </div> -->
 </div>
 
-
-<li node-id="Liked_Songs" class="list-item play-list collapsed" title="Liked Songs">
-
+<li
+  node-id="Liked_Songs"
+  class="list-item play-list collapsed"
+  title="Liked Songs"
+>
   <div class="symbol-mixed-block list-tab">
-
     <span>Liked Songs</span>
   </div>
   <ol class="list-tree">
-    <li node-id="6BbFwwHnzY74a8GOsDg8Sn" class="list-nested-item expanded collapsed list-item" title="Outlier">
-
+    <li
+      node-id="6BbFwwHnzY74a8GOsDg8Sn"
+      class="list-nested-item expanded collapsed list-item"
+      title="Outlier"
+    >
       <div class=" symbol-mixed-block">
-
         <span>Outlier</span>
       </div>
     </li>
-    <li node-id="0TLAptKgYxe7F0KewWH6X6" class="list-nested-item expanded collapsed list-item"
-      title="I Need A Forest Fire">
-
+    <li
+      node-id="0TLAptKgYxe7F0KewWH6X6"
+      class="list-nested-item expanded collapsed list-item"
+      title="I Need A Forest Fire"
+    >
       <div class=" symbol-mixed-block">
-
         <span>I Need A Forest Fire</span>
       </div>
     </li>
-    <li node-id="6t52BHKOeX3os9AxPqET1R" class="list-nested-item expanded collapsed list-item" title="Salvation">
-
+    <li
+      node-id="6t52BHKOeX3os9AxPqET1R"
+      class="list-nested-item expanded collapsed list-item"
+      title="Salvation"
+    >
       <div class=" symbol-mixed-block">
-
         <span>Salvation</span>
       </div>
     </li>
-    <li node-id="2bKS7HtZ9Cy4K7NGeRlePF" class="list-nested-item expanded collapsed list-item"
-      title="Attention - Acoustic">
-
+    <li
+      node-id="2bKS7HtZ9Cy4K7NGeRlePF"
+      class="list-nested-item expanded collapsed list-item"
+      title="Attention - Acoustic"
+    >
       <div class=" symbol-mixed-block">
-
         <span>Attention - Acoustic</span>
       </div>
     </li>
