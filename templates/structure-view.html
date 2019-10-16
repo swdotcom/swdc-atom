@@ -8,7 +8,7 @@
     #tree-playlist li {
       cursor: pointer;
       margin-bottom: 0px;
-      padding: 4px 0 4px 5px;
+      padding: 4px 0 4px 8px;
     }
     #tree-playlist li:hover {
       background-color: #2f333d;
@@ -88,6 +88,43 @@
       background-color: #565656;
       color: #a0a0a0;
     }
+    .loader {
+      border: 5px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 5px solid #3498db;
+      width: 15px;
+      height: 15px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .leftbox { 
+                float:left;  
+                width:50%; 
+            } 
+    .rightbox{ 
+        float:left;  
+        width:50%; 
+    } 
   </style>
   <div class="sv-toolbox block">
     <!-- <button class="inline-block-tight btn icon icon-screen-normal" value="collapse" title="Collapse All"  @click="onToggleWholeTree"></button>
@@ -97,23 +134,29 @@
     <span>MUSIC TIME</span>
   </div>
   <!-- <div class="no-file-hint" v-show="noTagHint"><pre>{{noTagHint}}</pre></div> -->
-  <div class="vertical-menu">
-    <a href="#" id="spotify-status" title="you have connected to spotify"></a>
-    <a href="#" id="spotify-connect" title="connect to spotify">Connect Spotify</a>
+  <div class="loader" id="loader" style="display: none"></div>
+  <div class="vertical-menu" >
+    <a href="#" id="spotify-status" title="you have connected to spotify" style="display: none"></a>
+    
+      <a href="#" id="spotify-connect" title="connect to spotify"
+      >
+      
+      Connect Spotify</a>
+ 
 
     <a href="#" id="spotify-disconnect" title="You Want to Disconnect Spotify?"
-      >Disconnect Spotify</a
+    style="display: none">Disconnect Spotify</a
     >
 
     <a
       href="#"
       id="spotify-refresh-playlist"
       title="You Want to Refresh Custom Spotify Playlist"
-      >Refresh Custom Spotify Playlist</a
+      style="display: none" >Refresh Custom Spotify Playlist</a
     >
     <hr />
   </div>
-  <div class="tree-panel" v-show="!noTagHint">
+  <div class="tree-panel" id="tree-content">
     <ol
       class="full-menu list-tree has-collapsable-children"
       id="tree-playlist"
