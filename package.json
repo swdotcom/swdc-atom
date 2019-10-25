@@ -3,6 +3,9 @@
     "displayName": "Music Time",
     "main": "./lib/Activator",
     "version": "0.2.4",
+    "scripts": {
+        "test": "mocha"
+    },
     "description": "Music Time is an open source plugin that curates and launches playlists for coding right from your editor.",
     "keywords": [
         "code time",
@@ -60,6 +63,7 @@
         "vue": "^2.6.10"
     },
     "devDependencies": {
+        "mocha": "^6.2.2",
         "typescript": "^2.7.2"
     },
     "contributes": {
