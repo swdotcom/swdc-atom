@@ -1,6 +1,8 @@
+
 <div class="structure-view">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  
   <style>
+    /* @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css"); */
     .tree-panel {
       height: 630px;
       overflow: scroll;
@@ -56,14 +58,31 @@
     }
 
     li.play-list-angle-down:before {
-      content: "\f107";
+      /* content: "\f107"; */
+      /* content: "";
+      background: url('./image.png'); */
       /* FontAwesome Unicode */
-      font-family: FontAwesome;
+      /* font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
       display: inline-block;
       width: 1.3em;
       position: absolute;
       left: 4px;
-      top: 4px;
+      top: 4px; */
+
+      font-family: 'Octicons Regular';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    content: "\f078";
       /* same as padding-left set on li */
     }
 
