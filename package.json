@@ -26,26 +26,13 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "configSchema": {
-        "showMusicMetrics": {
-            "title": "Show Code Time music metrics",
-            "description": "Code Time weekly music metrics and the top 40",
-            "type": "boolean",
-            "default": false,
-            "order": 1
-        },
+     
         "showGitMetrics": {
             "title": "Show Code Time git metrics",
             "description": "Code Time weekly git commit metrics",
             "type": "boolean",
             "default": false,
             "order": 2
-        },
-        "showWeeklyRanking": {
-            "title": "Show Code Time weekly rankings",
-            "description": "Code Time weekly user rankings",
-            "type": "boolean",
-            "default": false,
-            "order": 3
         }
     },
     "dependencies": {
