@@ -51,6 +51,7 @@
       display: block;
       padding: 4px;
       text-decoration: none;
+      margin-left: 19px;
     }
 
     .vertical-menu a:hover {
@@ -183,6 +184,9 @@
         float:left;  
         width:50%; 
     } 
+    .divider {
+      margin-left: 25px;
+    }
   </style>
   <div class="sv-toolbox block">
     <!-- <button class="inline-block-tight btn icon icon-screen-normal" value="collapse" title="Collapse All"  @click="onToggleWholeTree"></button>
@@ -204,14 +208,14 @@
 
     <a href="#" id="spotify-player-device" title=""
     style="display: none"></a>
-
+    <img width='11' height='11' class="divider"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHklEQVQ4jWMYBcMBMPKuffifEo8wjSaDEQ8YGBgYAPSYAp6YQSEPAAAAAElFTkSuQmCC"/>
     <a
       href="#"
       id="spotify-refresh-playlist"
       title="You Want to Refresh Custom Spotify Playlist"
       style="display: none" >Refresh Custom Spotify Playlist</a
     >
-    <hr />
+   
   </div>
   <div class="tree-panel" id="tree-content">
     <ol
