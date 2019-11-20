@@ -187,15 +187,16 @@
     .divider {
       margin-left: 25px;
     }
+    .playlist-head {
+      padding: 9px 15px 10px 15px;
+    }
   </style>
-  <div class="sv-toolbox block">
-    <!-- <button class="inline-block-tight btn icon icon-screen-normal" value="collapse" title="Collapse All"  @click="onToggleWholeTree"></button>
-    <button class="inline-block-tight btn icon icon-screen-full" value="expand" title="Expand All" @click="onToggleWholeTree"></button>
-    <button class="inline-block-tight btn icon icon-question" @click="onClickGuide" title="Guide"></button>
-    <button class="inline-block-tight btn icon icon-settings" @click="onOpenSettingsTab" title="Settings"></button> -->
-    <span>MUSIC TIME</span>
+  <div class="sv-toolbox block playlist-head">
+    <span style="float: left;">MUSIC TIME : MY PLAYLISTS</span>
+    <span style="float: right;">
+      <img alt="" style="cursor: pointer;"  id="refresh-treeview" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTIiIGhlaWdodD0iMTQiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiIHZpZXdCb3g9IjAgLTEyOCAxNTM2IDE3OTIiIHN0eWxlPSItbXMtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB2ZXJ0aWNhbC1hbGlnbjogLTAuMTQzZW07Ij48cGF0aCBkPSJNMTUxMSA5MjhxMCA1LTEgN3EtNjQgMjY4LTI2OCA0MzQuNVQ3NjQgMTUzNnEtMTQ2IDAtMjgyLjUtNTVUMjM4IDEzMjRsLTEyOSAxMjlxLTE5IDE5LTQ1IDE5dC00NS0xOXQtMTktNDVWOTYwcTAtMjYgMTktNDV0NDUtMTloNDQ4cTI2IDAgNDUgMTl0MTkgNDV0LTE5IDQ1bC0xMzcgMTM3cTcxIDY2IDE2MSAxMDJ0MTg3IDM2cTEzNCAwIDI1MC02NXQxODYtMTc5cTExLTE3IDUzLTExN3E4LTIzIDMwLTIzaDE5MnExMyAwIDIyLjUgOS41dDkuNSAyMi41em0yNS04MDB2NDQ4cTAgMjYtMTkgNDV0LTQ1IDE5aC00NDhxLTI2IDAtNDUtMTl0LTE5LTQ1dDE5LTQ1bDEzOC0xMzhROTY5IDI1NiA3NjggMjU2cS0xMzQgMC0yNTAgNjVUMzMyIDUwMHEtMTEgMTctNTMgMTE3cS04IDIzLTMwIDIzSDUwcS0xMyAwLTIyLjUtOS41VDE4IDYwOHYtN3E2NS0yNjggMjcwLTQzNC41VDc2OCAwcTE0NiAwIDI4NCA1NS41VDEyOTcgMjEybDEzMC0xMjlxMTktMTkgNDUtMTl0NDUgMTl0MTkgNDV6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==" />
+    </span>
   </div>
-  <!-- <div class="no-file-hint" v-show="noTagHint"><pre>{{noTagHint}}</pre></div> -->
   <div class="loader" id="loader" style="display: none"></div>
   <div class="vertical-menu" >
     <a href="#" id="spotify-status" title="you have connected to spotify" style="display: none"></a>
@@ -212,8 +213,8 @@
     <a
       href="#"
       id="spotify-refresh-playlist"
-      title="You Want to Refresh Custom Spotify Playlist"
-      style="display: none" >Refresh Custom Spotify Playlist</a
+      title="You Want to Refresh My AI Spotify Playlist"
+      style="display: none" >Refresh My AI Spotify Playlist</a
     >
    
   </div>
