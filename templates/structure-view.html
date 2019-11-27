@@ -110,7 +110,11 @@
             /* same as padding-left set on li */
         }
 
-        #spotify-player-device:before {
+        .symbol-mixed-block {
+            height: 16px;
+        }
+
+        .spotify-menus:before {
             content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAACD0lEQVQ4jY2STUiUURiFn3Pnm7GMnMkiUNCNiwgDCSW3ZlkISotAaBdkQklEWHtpXQQTSCBEtQuXRpI//SwDDTIqEITQyI3pTFjizPfdt8XMmA4pntXlcs5533PuFWWoft3d6L31GXQI6gFMLApNyEfDqx0vP23la/M03RxPZWvvY3YdiJUbF+ENe5RdqbxFz0jun8F0czyVrRnDOLODsBxvMyv7z9MzknMAhcl7FgO0Jav/PABQMfMsEIImDJuVNCfzYYHrqjy+UbgTYK1ARSmOImsKvLc+wJnxONsxeo3p5vjhn7UNkWwfgIuHy9nTY0MAB990H3HeX5GpH6izmHqVnOz6IjgO5AzmBQ1AYvvGygIfwD9NxX4/z/jKU5h7Z/BVqcmuNeBAgaeH8v6VfDCbT/j1hLeKMPI1zrlWk9oxuwBaA9sAjgJrwbZBxrKhkxaLLgchVZHYUCz2DbP3lvC9CuMDROE94GJJEhgsFCMANoj4jpgz+AUEGG0G/drQOoRPQOtgxXksBoIJSgbGXZM9c7hjGIe8LCfTfKRgIVD+khl3wOo3m4Hx0jN+ZOffB7BqZkNyymMMFu8i59QkgNRUdxqzG7sY/A/pzNkXNx1AJvljADG1Z6mYyqSWbgM4AFpm8pnkUieQBqJdpBGQziSXOmmZyRe8ylDs5KrBOUEdFNoWjDun4ZX20c9b+X8Bq4DkaLoGsHQAAAAASUVORK5CYII=');
             width: 16px;
             height: 12px;
@@ -192,7 +196,7 @@
         <span style="float: right;">
             <img
                 alt=""
-                style="cursor: pointer;"
+                style="cursor: pointer; display: none"
                 id="refresh-treeview"
                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTIiIGhlaWdodD0iMTQiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiIHZpZXdCb3g9IjAgLTEyOCAxNTM2IDE3OTIiIHN0eWxlPSItbXMtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB2ZXJ0aWNhbC1hbGlnbjogLTAuMTQzZW07Ij48cGF0aCBkPSJNMTUxMSA5MjhxMCA1LTEgN3EtNjQgMjY4LTI2OCA0MzQuNVQ3NjQgMTUzNnEtMTQ2IDAtMjgyLjUtNTVUMjM4IDEzMjRsLTEyOSAxMjlxLTE5IDE5LTQ1IDE5dC00NS0xOXQtMTktNDVWOTYwcTAtMjYgMTktNDV0NDUtMTloNDQ4cTI2IDAgNDUgMTl0MTkgNDV0LTE5IDQ1bC0xMzcgMTM3cTcxIDY2IDE2MSAxMDJ0MTg3IDM2cTEzNCAwIDI1MC02NXQxODYtMTc5cTExLTE3IDUzLTExN3E4LTIzIDMwLTIzaDE5MnExMyAwIDIyLjUgOS41dDkuNSAyMi41em0yNS04MDB2NDQ4cTAgMjYtMTkgNDV0LTQ1IDE5aC00NDhxLTI2IDAtNDUtMTl0LTE5LTQ1dDE5LTQ1bDEzOC0xMzhROTY5IDI1NiA3NjggMjU2cS0xMzQgMC0yNTAgNjVUMzMyIDUwMHEtMTEgMTctNTMgMTE3cS04IDIzLTMwIDIzSDUwcS0xMyAwLTIyLjUtOS41VDE4IDYwOHYtN3E2NS0yNjggMjcwLTQzNC41VDc2OCAwcTE0NiAwIDI4NCA1NS41VDEyOTcgMjEybDEzMC0xMjlxMTktMTkgNDUtMTl0NDUgMTl0MTkgNDV6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg=="
             />
@@ -207,7 +211,7 @@
             style="display: none"
         ></a>
 
-        <a href="#" id="spotify-connect" title="connect to spotify">
+        <a href="#" id="spotify-connect" title="connect to spotify" class="spotify-menus">
             Connect Spotify</a
         >
 
@@ -216,6 +220,7 @@
             id="spotify-player-device"
             title=""
             style="display: none"
+            class="spotify-menus"
         ></a>
         <img
             width="11"
