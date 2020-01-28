@@ -6,6 +6,18 @@
             overflow: scroll;
         }
 
+        a,
+        label {
+            color: #a0a0a0;
+            display: block;
+            padding: 4px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
         li {
             text-decoration: none;
         }
@@ -22,21 +34,17 @@
         }
 
         .vertical-menu {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
             width: 400px;
             padding-left: 6px;
             padding-right: 10px;
             overflow: scroll;
         }
 
-        .vertical-menu a {
-            color: #a0a0a0;
-            display: block;
-            padding: 4px;
-            text-decoration: none;
-            margin-left: 19px;
-        }
-
-        .vertical-menu a:hover {
+        .vertical-menu a:hover,
+        .vertical-menu label:hover {
             background-color: #2f333d;
         }
 
@@ -55,13 +63,6 @@
         .vertical-menu input {
             position: absolute;
             opacity: 0;
-        }
-
-        .vertical-menu {
-            font: normal 11px 'Segoe UI', Arial, Sans-serif;
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            user-select: none;
         }
 
         .vertical-menu input + label + ul {
@@ -84,6 +85,24 @@
 
         .vertical-menu input:checked:not(:disabled) + label + ul {
             display: block;
+        }
+
+        label::before {
+            content: '\f078';
+            font-family: 'Octicons Regular';
+            font-size: 16px;
+            width: 12px;
+            height: 12px;
+            padding-right: 6px;
+        }
+
+        input:checked + label::before {
+            content: '\f0a3';
+            font-family: 'Octicons Regular';
+            font-size: 16px;
+            width: 12px;
+            height: 12px;
+            padding-right: 6px;
         }
 
         .leftbox {
@@ -128,14 +147,10 @@
     <div class="vertical-menu">
         <ul>
             <li>
-                <input type="checkbox" id="item-0-0-0" /><label for="item-0-0-0"
-                    >Look Ma - No Hands!</label
-                >
+                <input type="checkbox" id="editor-time" />
+                <label for="editor-time">Editor time</label>
                 <ul>
-                    <li><a href="./">First Nested Item</a></li>
-                    <li><a href="./">Second Nested Item</a></li>
-                    <li><a href="./">Third Nested Item</a></li>
-                    <li><a href="./">Fourth Nested Item</a></li>
+                    <li><a href="#">Today: 0 min</a></li>
                 </ul>
             </li>
         </ul>
