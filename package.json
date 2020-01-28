@@ -56,11 +56,6 @@
             "type": "object",
             "title": "Code Time",
             "properties": {
-                "showMusicMetrics": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Music metrics"
-                },
                 "showGitMetrics": {
                     "type": "boolean",
                     "default": false,
