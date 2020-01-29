@@ -2,8 +2,12 @@
     <style>
         /* @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css"); */
         .tree-panel {
-            height: 630px;
-            overflow: scroll;
+            /* height: 630px; */
+            width: 100%;
+            height: 100%;
+            padding: 2px;
+            overflow-y: scroll;
+            overflow-x: hidden;
         }
 
         a,
@@ -117,9 +121,8 @@
             margin-left: 25px;
         }
         .sv-toolbox {
-            padding: 10px 2px 2px 2px;
+            padding: 8px 2px 2px 4px;
         }
-
         label {
             padding: 5px;
             border-radius: 3px;
@@ -127,7 +130,7 @@
         }
     </style>
 
-    <div class="sv-toolbox block">
+    <div class="sv-toolbox">
         <span>CODE TIME</span>
     </div>
 
@@ -141,37 +144,13 @@
         <a href="#" id="submit-feedback" title="">Submit feedback</a>
     </div>
     <hr />
-    <div class="sv-toolbox block">
+    <div class="sv-toolbox">
         <span>ACTIVITY METRICS</span>
     </div>
-    <div class="vertical-menu">
-        <ul>
-            <li>
-                <input type="checkbox" id="editor-time" />
-                <label for="editor-time">Editor time</label>
-                <ul>
-                    <li><a href="#" id="editor-time-today">Today: 0 min</a></li>
-                </ul>
-            </li>
-            <li>
-                <input type="checkbox" id="code-time" />
-                <label for="code-time">Code time</label>
-                <ul>
-                    <li><a href="#" id="code-time-today">Today: 0 min</a></li>
-                    <li>
-                        <a href="#" id="code-time-avg">Your average: 0 min</a>
-                    </li>
-                    <li>
-                        <a href="#" id="code-time-global"
-                            >Global average: 0 min</a
-                        >
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    <div class="vertical-menu" id="code-time-metrics"></div>
     <hr />
-    <div class="sv-toolbox block">
+    <div class="sv-toolbox">
         <span>PROJECT METRICS</span>
     </div>
+    <div class="vertical-menu" id="code-project-metrics"></div>
 </div>

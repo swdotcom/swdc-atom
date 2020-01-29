@@ -41,6 +41,7 @@
         "jquery": "3.4.1",
         "lodash": "^4.17.15",
         "moment-timezone": "^0.5.25",
+        "node-cache": "^5.1.0",
         "numeral": "^2.0.6",
         "open": "6.3.0",
         "spotify-node-applescript": "1.1.1",
