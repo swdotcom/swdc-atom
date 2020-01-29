@@ -73,6 +73,7 @@
             margin: 0 0 0 22px;
         }
 
+        /* by default the leaf nodes are hidden */
         .vertical-menu input + label + ul {
             display: none;
         }
@@ -87,6 +88,7 @@
             opacity: 0.6;
         }
 
+        /* this will show the leaf nodes (li items) when expending the root node */
         .vertical-menu input:checked:not(:disabled) + label + ul {
             display: block;
         }
