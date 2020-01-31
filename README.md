@@ -28,6 +28,10 @@
 
 **1. Create your web account**
 
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-atom.s3-us-west-1.amazonaws.com/complete-setup.png" alt="Code Time for Atom login prompt" />
+</p>
+
 The Code Time web app has data visualizations and settings you can customize, such as your work hours and rates per project for advanced time tracking. You can also connect Google Calendar to visualize your Code Time vs. meetings in a single calendar.
 
 You can connect multiple code editors on multiple devices using the same email account.
