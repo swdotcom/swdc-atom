@@ -1,29 +1,115 @@
-# _Code Time_ for Atom
+<br />
 
-## Measure your coding activity in real time
+<h1 align="center">
+  <img src="https://swdc-vscode.s3-us-west-1.amazonaws.com/software-paw.png" width="30px" />
+  Code Time
+  <br />
+  &nbsp
+</h1>
 
-_Code Time_ shows you your coding activity to help you increase flow, decrease interrupts, and improve work-life balance.
+<br />
 
-It takes just a minute to install our plugin for Atom.
+<p align="center"><a href="https://www.software.com/code-time">Code Time</a> is an open source plugin for automatic programming metrics and time-tracking. 
+</p>
 
-[setup instructions](https://www.software.com/text-editors-and-ides/atom)
+<br />
 
-### See your coding intensity
 
-Our plugin for Atom features a status bar that shows your keystrokes per minute (KPM) for your last minute of activity. We show a rocket icon if your KPM is equal to or above your average KPM per day for the last 90 days--a subtle reminder of your relative coding focus and intensity.
+<p align="center">
+  <a href="https://atom.io/packages/code-time">
+    <img alt="Version" src="https://img.shields.io/apm/v/code-time?label=version"></a>
+  <a href="https://atom.io/packages/code-time">
+    <img alt="Downloads" src="https://img.shields.io/apm/dm/code-time"></a>
+</p>
 
-[Atom status bar](https://uploads-ssl.webflow.com/5b589ab81371d7c6ffc8d17a/5b8cc5378555848fb77ca299_atom-status-bar.png)
+<br />
 
-### Time tracking
+## Getting started
 
-Longer sessions are generally more productive because we can maintain context and more easily retain logical constructs related to our code. In the status bar, we show a circle with a partial fill (either 25%, 50%, 75%, or 100%) to indicate the duration of your current session vs. your average over the last 90 days.
+**1. Create your web account**
 
-### Quantify your coding
+The Code Time web app has data visualizations and settings you can customize, such as your work hours and rates per project for advanced time tracking. You can also connect Google Calendar to visualize your Code Time vs. meetings in a single calendar.
 
-In addition to KPM and time, we also measure time spent by project, lines of code, characters added/deleted, and your current Spotify or iTunes track. We distill this data into interesting "datagrams" that you can view in your account.
+You can connect multiple code editors on multiple devices using the same email account.
 
-[app.software.com](https://app.software.com)
+**2. Track your progress during the day**
 
-### Safe, secure, and free
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-atom.s3-us-west-1.amazonaws.com/status-bar.png" alt="Code Time for Atom status bar" />
+</p>
 
-All of our plugins are safe, secure, and free. We do not process, send, or store your proprietary code. We only track productivity-related data, and we make it easy to see the data we collect.
+Your status bar shows you in real-time how many hours and minutes you code each day.
+
+**3. Check out your coding activity**
+
+To see an overview of your coding activity and project metrics, open the **Code Time panel** by clicking on the Code Time tracker in your status bar.
+
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-atom.s3-us-west-1.amazonaws.com/side-bar.png" alt="Code Time for Atom side bar" />
+</p>
+
+In your **Activity Metrics**, your _editor time_ is the total time you have spent in your editor today. Your _code time_ is the total time you have been typing in your editor today. Each metric shows how you compare today to your average and the global average. Each average is calculated by day of week over the last 90 days (e.g. a Friday average is an average of all previous Fridays).
+
+You can also see your top files today by KPM (keystrokes per minute), keystrokes, and code time.
+
+Your **Project Metrics** provides a breakdown for the current open project. The _Open changes_ section shows how many lines you have added and deleted before you commit them and the _Committed today_ section summarizes your commits today.
+
+**4. Generate your Code Time dashboard**
+
+At the end of your first day, open Code Time in your side bar and click _Generate dashboard_ to open your dashboard in a new editor tab. Your dashboard summarizes your coding data—such as your code time by project, lines of code, and keystrokes per minute—today, yesterday, last week, and over the last 90 days.
+
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-atom.s3-us-west-1.amazonaws.com/editor-dashboard.png" alt="Code Time for Atom dashboard" />
+</p>
+
+## Web app data visualizations
+
+Click "See advanced metrics" in the Code Time side bar or visit [app.software.com](https://app.software.com/) to see more data visualizations. Here are a few examples of what you will see in your feed after your first week.
+
+**Code Time heatmap**
+
+Code Time measures your coding activity per hour and summarizes your data in a weekly and 90-day average heatmap. Protect your best times on your heatmap from meetings and interrupts to help boost your productivity.
+
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-vscode.s3-us-west-1.amazonaws.com/weekly-heatmap.png" alt="Code Time for Atom heatmap" />
+</p>
+
+**Project-based reports**
+
+See how much time you spend per project per week. Code Time also lets you set a rate per project and export your data to a CSV.
+
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-vscode.s3-us-west-1.amazonaws.com/top-projects.png" alt="Code Time for Atom top projects" />
+</p>
+
+**Work-life balance**
+
+How much do you code after hours and weekends? Code Time helps you see your breakdown at work vs. outside work so you can find ways to improve your work-life balance.
+
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-vscode.s3-us-west-1.amazonaws.com/work-life-balance.png" alt="Code Time for Atom work life balance" />
+</p>
+
+**Commit velocity**
+
+Code Time integrates with Git, so you can see your speed, frequency, and top files across your commits.
+
+<p align="center" style="margin: 0 10%">
+  <img src="https://swdc-vscode.s3-us-west-1.amazonaws.com/commit-velocity.png" alt="Code Time for Atom commit velocity" />
+</p>
+
+## It’s safe, secure, and free
+
+**We never access your code:** We do not process, send, or store your proprietary code. We only provide metrics about programming, and we make it easy to see the data we collect.
+
+**Your data is private:** We will never share your individually identifiable data with your boss. In the future, we will roll up data into groups and teams but we will keep your data anonymized.
+
+**Free for you, forever:** We provide 90 days of data history for free, forever. In the future, we will provide premium plans for advanced features and historical data access.
+
+Code Time also collects basic usage metrics to help us make informed decisions about our roadmap.
+
+## Get in touch
+
+Enjoying Code Time? Let us know how it’s going by tweeting or following us at [@software_hq](https://twitter.com/software_hq).
+
+Have any questions? Please email us at [support@software.com](mailto:support@software.com) and we’ll get back to you as soon as we can.
