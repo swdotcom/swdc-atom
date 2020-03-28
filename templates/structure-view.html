@@ -27,6 +27,14 @@
             text-decoration: none;
         }
 
+        .menu-section {
+            min-height: 175px;
+        }
+
+        .daily-metrics-section {
+            min-height: 350px;
+        }
+
         .list-tree.has-collapsable-children li.list-item {
             position: relative;
         }
@@ -137,7 +145,7 @@
         <span>MENU</span>
     </div>
 
-    <div class="vertical-menu">
+    <div class="vertical-menu menu-section">
         <a href="#" id="google-signup" class="google-icon" title=""
             >Sign up with Google</a
         >
@@ -171,7 +179,10 @@
     <div class="sv-toolbox">
         <span>DAILY METRICS</span>
     </div>
-    <div class="vertical-menu" id="code-time-metrics"></div>
+    <div
+        class="vertical-menu daily-metrics-section"
+        id="code-time-metrics"
+    ></div>
 
     <div class="sv-toolbox">
         <span>CONTRIBUTORS</span>
