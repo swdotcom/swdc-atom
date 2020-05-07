@@ -34,14 +34,14 @@
     "dependencies": {
         "axios": "^0.19.2",
         "crypto": "^1.0.1",
-        "jquery": "3.5.0",
+        "jquery": "3.5.1",
         "moment-timezone": "^0.5.28",
         "node-cache": "^5.1.0",
         "numeral": "^2.0.6"
     },
     "devDependencies": {
-        "mocha": "^6.2.2",
-        "typescript": "^2.7.2"
+        "mocha": "^7.1.2",
+        "typescript": "^3.8.3"
     },
     "contributes": {
         "configuration": {
