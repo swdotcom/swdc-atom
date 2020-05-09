@@ -279,7 +279,7 @@ function getPackageFile() {
 }
 
 function getJsonFromFile(filename) {
-    let content = fs.readFileSync(filename).toString();
+    let content = fs.readFileSync(filename, {encoding: 'utf8'}).toString();
     if (content) {
         try {
             const data = JSON.parse(content);
