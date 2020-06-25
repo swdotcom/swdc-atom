@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/universalify@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/universalify/-/universalify-1.0.0.tgz#0fecec0da49839da8b705ddc714600c480ea3dee"
+  integrity sha512-Cqm/s2DU7YxTcTtQZkfG7kyOULQKsl0Mpd3dKAm0CbSStcRsQdy1nctCBGCmyNvxWUEYReqWkBIUvNHBN/Ja6w==
+
 ansi-colors@3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.3.tgz#57d35b8686e851e2cc04c403f1c00203976a1813"
@@ -212,6 +217,14 @@ esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
+
+file-it@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/file-it/-/file-it-1.0.16.tgz#f804823bcadd9e51d065a8d13a00919d350a3fc1"
+  integrity sha512-ipTtzRljPmibBflzP9OJyXprB1++NoaiC/P9cFn57ZaIGPiA6EUDufgApICN+d/JOWtfg8l9FvCUQiasTR+1Qg==
+  dependencies:
+    "@types/universalify" "^1.0.0"
+    universalify "^1.0.0"
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -713,6 +726,11 @@ typescript@^3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+
+universalify@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
+  integrity sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
 
 which-module@^2.0.0:
   version "2.0.0"

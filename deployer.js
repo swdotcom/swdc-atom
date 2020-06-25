@@ -1,6 +1,6 @@
 #!/usr/bin/env node
+import fileIt from 'file-it';
 const { exec } = require('child_process');
-const fs = require('fs');
 
 const KEY_MAP = {
     'code-time': 'code-time',
@@ -279,33 +279,11 @@ function getPackageFile() {
 }
 
 function getJsonFromFile(filename) {
-    let content = fs.readFileSync(filename, {encoding: 'utf8'}).toString();
-    if (content) {
-        try {
-            const data = JSON.parse(content);
-            return data;
-        } catch (e) {
-            //
-        }
-    }
-    return null;
+  return fileIt.readJsonFileSync(filename);
 }
 
 function updateJsonContent(packageJson, filename) {
-    try {
-        // JSON.stringify(data, replacer, number of spaces)
-        const content = JSON.stringify(packageJson, null, 4);
-        fs.writeFileSync(filename, content, err => {
-            if (err)
-                console.log(
-                    'Deployer: Error updating the package content: ',
-                    err.message
-                );
-            process.exit(1);
-        });
-    } catch (e) {
-        //
-    }
+  fileIt.writeJsonFileSync(filename, packageJson, {spaces: 4});
 }
 
 async function runCommand(cmd, execMsg, ignoreError = false) {
