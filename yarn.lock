@@ -218,10 +218,10 @@ esprima@^4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-file-it@^1.0.16:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/file-it/-/file-it-1.0.16.tgz#f804823bcadd9e51d065a8d13a00919d350a3fc1"
-  integrity sha512-ipTtzRljPmibBflzP9OJyXprB1++NoaiC/P9cFn57ZaIGPiA6EUDufgApICN+d/JOWtfg8l9FvCUQiasTR+1Qg==
+file-it@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/file-it/-/file-it-1.0.22.tgz#d1450fcf4f5b3328b4e23a59e72ca0e5d4fcd38a"
+  integrity sha512-y2l1nCJg2C3+52STFXTR7pBq7ulfZ8xVF9mNDDRD/WYUlVA7WC9Hh195t4MQRPPKMplAxztUXvEwofk5M6jsZw==
   dependencies:
     "@types/universalify" "^1.0.0"
     universalify "^1.0.0"
