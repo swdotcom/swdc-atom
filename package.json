@@ -34,11 +34,12 @@
     "dependencies": {
         "axios": "^0.19.2",
         "crypto": "^1.0.1",
+        "file-it": "^1.0.23",
         "jquery": "3.5.1",
         "moment-timezone": "^0.5.28",
         "node-cache": "^5.1.0",
         "numeral": "^2.0.6",
-        "file-it": "^1.0.23"
+        "swdc-tracker": "^1.0.20"
     },
     "devDependencies": {
         "mocha": "^7.1.2",
