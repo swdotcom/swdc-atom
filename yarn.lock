@@ -1024,10 +1024,10 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-swdc-tracker@^1.0.21:
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/swdc-tracker/-/swdc-tracker-1.0.21.tgz#27f11b5dc2f55cdf77e4c7004d97beb20b26cb62"
-  integrity sha512-8+aI1XXiS2al754dm8fV7itRZX3NxvPjshBikpaZrc+g/N/VTFf6/HQjLWjTkB1B3vb/NdJY8BarMzFJcGBEdg==
+swdc-tracker@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/swdc-tracker/-/swdc-tracker-1.2.0.tgz#e94aa6d5683686a9690be0b361088be1bb5d5061"
+  integrity sha512-K3nRMxSuKcImbEAOEdaMRhOjYKitFxpu9EL+/beS3/JIOlkOOjhz2XWeLkjf1dHWGRGjXBEYXcKlWvERM9KhoA==
   dependencies:
     "@types/node" "^14.0.13"
     axios "^0.19.2"
