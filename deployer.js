@@ -19,7 +19,7 @@ const MUSIC_TIME_DISPLAY = 'Music Time';
 // copy the scripts data to dist/scripts
 async function deploy() {
     const args = process.argv;
-    console.log(args);
+
     let packageIt = false;
     if (!args || args.length <= 2) {
         console.error('Usage: node deployer <code-time|music-time> [package]');

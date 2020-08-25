@@ -623,12 +623,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.15:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
-
-lodash@^4.17.19:
+lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
@@ -1029,10 +1024,10 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-swdc-tracker@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/swdc-tracker/-/swdc-tracker-1.0.20.tgz#07ef9a09f0fb9839aabafaff781f5e3f5144e9c9"
-  integrity sha512-EpNnr9mFuMFP0i9KXEA9yWuu/93ohWcdkbHMMHWaclcv+C2vZSNh1cZuZ++URPOxWl7QKE8iPVwBIpI8o7VT2w==
+swdc-tracker@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/swdc-tracker/-/swdc-tracker-1.2.0.tgz#e94aa6d5683686a9690be0b361088be1bb5d5061"
+  integrity sha512-K3nRMxSuKcImbEAOEdaMRhOjYKitFxpu9EL+/beS3/JIOlkOOjhz2XWeLkjf1dHWGRGjXBEYXcKlWvERM9KhoA==
   dependencies:
     "@types/node" "^14.0.13"
     axios "^0.19.2"
