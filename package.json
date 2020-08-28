@@ -2,7 +2,7 @@
     "name": "code-time",
     "displayName": "Code Time",
     "main": "./lib/Activator",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "description": "Code Time is an open source plugin that provides programming metrics right in Atom.",
     "keywords": [
         "code time",
