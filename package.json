@@ -39,7 +39,7 @@
         "moment-timezone": "^0.5.28",
         "node-cache": "^5.1.0",
         "numeral": "^2.0.6",
-        "swdc-tracker": "^1.2.4"
+        "swdc-tracker": "^1.2.5"
     },
     "devDependencies": {
         "mocha": "^7.1.2",
