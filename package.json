@@ -2,7 +2,7 @@
     "name": "code-time",
     "displayName": "Code Time",
     "main": "./lib/Activator",
-    "version": "4.2.5",
+    "version": "4.3.0",
     "description": "Code Time is an open source plugin that provides programming metrics right in Atom.",
     "keywords": [
         "code time",
@@ -22,15 +22,6 @@
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
     },
-    "configSchema": {
-        "showGitMetrics": {
-            "title": "Show Code Time git metrics",
-            "description": "Code Time weekly git commit metrics",
-            "type": "boolean",
-            "default": false,
-            "order": 2
-        }
-    },
     "dependencies": {
         "axios": "^0.19.2",
         "crypto": "^1.0.1",
@@ -44,24 +35,5 @@
     "devDependencies": {
         "mocha": "^7.1.2",
         "typescript": "^3.8.3"
-    },
-    "contributes": {
-        "configuration": {
-            "type": "object",
-            "title": "Code Time",
-            "properties": {
-                "showGitMetrics": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Git metrics"
-                },
-                "showWeeklyRanking": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Weekly Ranking"
-                }
-            }
-        },
-        "commands": []
     }
 }
