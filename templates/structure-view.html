@@ -28,11 +28,15 @@
         }
 
         .menu-section {
-            min-height: 175px;
+            min-height: 130px;
+        }
+
+        .flow-section {
+            min-height: 160px;
         }
 
         .daily-metrics-section {
-            min-height: 350px;
+            min-height: 320px;
         }
 
         .list-tree.has-collapsable-children li.list-item {
@@ -104,7 +108,7 @@
 
         label::before {
             content: '\f078';
-            font-family: 'Octicons Regular';
+            font-family: 'sans-serif';
             font-size: 16px;
             width: 12px;
             height: 12px;
@@ -113,7 +117,7 @@
 
         input:checked + label::before {
             content: '\f0a3';
-            font-family: 'Octicons Regular';
+            font-family: 'sans-serif';
             font-size: 16px;
             width: 12px;
             height: 12px;
@@ -142,49 +146,45 @@
     </style>
 
     <div class="sv-toolbox">
-        <span>MENU</span>
+        <span>ACCOUNT</span>
     </div>
 
     <div class="vertical-menu menu-section">
-        <a href="#" id="google-signup" class="google-icon" title=""
-            >Sign up with Google</a
+        <a href="#" id="signup-button" class="signup-icon" title=""
+            >Sign up</a
         >
-        <a href="#" id="github-signup" class="github-icon" title=""
-            >Sign up with GitHub</a
+        <a href="#" id="login-button" class="paw-icon" title=""
+            >Log in</a
         >
-        <a href="#" id="email-signup" class="envelope-icon" title=""
-            >Sign up with email</a
-        >
-        <hr
-            id="signup-divider"
-            style="border-color: #3074b3; margin-left: 2px; width: 20px;"
-        />
-        <div class="vertical-menu" id="logged-in-menu"></div>
-        <!--<a href="#" id="connected-type-button" title=""></a>-->
+        <div class="vertical-menu" id="logged-in-label"></div>
+        <a href="#" id="switch-account-button" class="rocket-icon" title="">Switch account</a>
 
         <a href="#" id="learn-more" class="readme-icon" title="">Learn more</a>
         <a href="#" id="toggle-status-metrics" class="visible-icon" title=""
             >Hide status bar metrics</a
         >
-
         <a href="#" id="submit-feedback" class="message-icon" title=""
             >Submit feedback</a
-        >
-        <hr style="border-color: #3074b3; margin-left: 2px; width: 20px;" />
-        <a href="#" id="advanced-metrics" class="paw-icon" title=""
-            >See advanced metrics</a
-        >
-        <a href="#" id="generate-dashboard" class="dashboard-icon" title=""
-            >View summary</a
         >
     </div>
 
     <div class="sv-toolbox">
-        <span>DAILY METRICS</span>
+      <span>FLOW</span>
     </div>
-    <div
-        class="vertical-menu daily-metrics-section"
-        id="code-time-metrics"
-    ></div>
+    <div class="vertical-menu flow-section" id="code-time-flow">
+      <a href="#" id="update-slack-status" class="profile-icon" title="">Update profile status</a>
+      <a href="#" id="pause-slack-notifications" class="notifications-off-icon" title="">Pause notifications</a>
+      <a href="#" id="enable-slack-notifications" class="notifications-on-icon" title="">Turn on notifications</a>
+      <a href="#" id="slack-presence-away" class="presence-icon" title="">Set presence to away</a>
+      <a href="#" id="slack-presence-active" class="presence-icon" title="">Set presence to active</a>
+      <a href="#" id="dark-mode-disable" class="adjust-icon" title="">Turn off dark mode</a>
+      <a href="#" id="dark-mode-enable" class="adjust-icon" title="">Turn on dark mode</a>
+      <a href="#" id="slack-dock-change" class="position-icon" title="">Toggle dock position</a>
+    </div>
+
+    <div class="sv-toolbox">
+        <span>STATS</span>
+    </div>
+    <div class="vertical-menu daily-metrics-section" id="code-time-metrics"></div>
 
 </div>

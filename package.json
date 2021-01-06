@@ -23,9 +23,10 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
-        "axios": "^0.19.2",
+        "@slack/web-api": "^5.15.0",
+        "axios": "^0.21.1",
         "crypto": "^1.0.1",
-        "file-it": "^1.0.26",
+        "file-it": "^1.0.27",
         "jquery": "3.5.1",
         "moment-timezone": "^0.5.28",
         "numeral": "^2.0.6",
