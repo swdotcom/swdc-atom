@@ -26,17 +26,24 @@
         li {
             text-decoration: none;
         }
-
+        .details {
+          margin-top: 1px;
+          margin-left: 10px;
+          font-style: italic;
+          font-size: 12px;
+          font-weight: 500;
+          color: #617AF5;
+        }
         .menu-section {
-            min-height: 200px;
+            min-height: 220px;
         }
 
         .flow-section {
-            min-height: 156px;
+            min-height: 130px;
         }
 
         .daily-metrics-section {
-            min-height: 320px;
+            min-height: 200px;
         }
 
         .list-tree.has-collapsable-children li.list-item {
@@ -105,25 +112,26 @@
         .vertical-menu input:checked:not(:disabled) + label + ul {
             display: block;
         }
-
+        /** chevron right **/
         label::before {
-            content: '\02795';
             font-family: 'sans-serif';
             font-size: 12px;
-            width: 12px;
-            height: 12px;
+            width: 16px;
+            height: 16px;
             margin-right: 6px;
             margin-left: -10px;
+            content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%0A%3E%3Cpath d='M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z' fill='url(%23paint0_linear)' /%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='8' y1='2' x2='8' y2='14' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23617AF5'/%3E%3Cstop offset='1' stop-color='%239F67F7'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
         }
 
+        /** chevron down **/
         input:checked + label::before {
-            content: '\2796';
             font-family: 'sans-serif';
             font-size: 12px;
-            width: 12px;
-            height: 12px;
+            width: 16px;
+            height: 16px;
             margin-right: 6px;
             margin-left: -10px;
+            content: url("data:image/svg+xml,%3Csvg width='16' height='%606' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%0A%3E%3Cpath d='M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z' fill='url(%23paint0_linear)' /%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='8' y1='2' x2='8' y2='14' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23617AF5'/%3E%3Cstop offset='1' stop-color='%239F67F7'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
         }
 
         .leftbox {
@@ -161,7 +169,7 @@
         <div class="vertical-menu" id="logged-in-label"></div>
         <a href="#" id="switch-account-button" class="paw-icon" title="">Switch account</a>
 
-        <a href="#" id="learn-more" class="readme-icon" title="">Learn more</a>
+        <a href="#" id="learn-more" class="readme-icon" title="">Documentation</a>
         <a href="#" id="toggle-status-metrics" class="visible-icon" title=""
             >Hide status bar metrics</a
         >
@@ -174,16 +182,49 @@
     <div class="sv-toolbox">
       <span>FLOW</span>
     </div>
-    <div class="vertical-menu flow-section" id="code-time-flow">
-      <a href="#" id="toggle-fullscreen" class="expand-icon" title="">Enter full screen</a>
-      <a href="#" id="update-slack-status" class="profile-icon" title="">Update profile status<span id="slack-status-desc"></span></a>
-      <a href="#" id="pause-slack-notifications" class="notifications-off-icon" title="">Pause notifications</a>
-      <a href="#" id="enable-slack-notifications" class="notifications-on-icon" title="">Turn on notifications<span id="enable-slack-notifications-desc"></span></a>
-      <a href="#" id="slack-presence-away" class="presence-icon" title="">Set presence to away</a>
-      <a href="#" id="slack-presence-active" class="presence-icon" title="">Set presence to active</a>
-      <a href="#" id="dark-mode-disable" class="adjust-icon" title="">Turn off dark mode</a>
-      <a href="#" id="dark-mode-enable" class="adjust-icon" title="">Turn on dark mode</a>
-      <a href="#" id="slack-dock-change" class="position-icon" title="">Toggle dock position</a>
+    <div class="vertical-menu flow-section">
+      <div id="code-time-flow">
+        <a href="#" id="enable-flow-mode" class="dot-outlined-icon" title="">Enable Flow Mode</a>
+        <a href="#" id="pause-flow-mode" class="dot-icon" style="display:none" title="">Pause Flow Mode</a>
+      </div>
+      <div class="vertical-menu" id="code-time-automations">
+        <div>
+          <li>
+            <input type="checkbox" id="settings-folder"/>
+            <label for="settings-folder">Settings</label>
+            <ul>
+              <li>
+                <a href="#" class="settings-icon" id="edit-pause-notifications" title="">Pause notifications<span id="pause-notifications-val" class="details"></span></a>
+                <a href="#" class="settings-icon" id="edit-slack-away-status" title="">Slack away status<span id="slack-away-status-val" class="details"></span></a>
+                <a href="#" class="settings-icon" id="edit-slack-away-text" title="">Slack away status text<span id="slack-status-away-text-val" class="details"></span></a>
+                <a href="#" class="settings-icon" id="edit-screen-mode" title="">Screen mode<span id="screen-mode-val" class="details"></span></a>
+              </li>
+            </ul>
+          </li>
+        </div>
+      </div>
+      <div class="vertical-menu" id="code-time-automations">
+        <div>
+          <li>
+            <input type="checkbox" id="automations-folder"/>
+            <label for="automations-folder">Automations</label>
+            <ul>
+              <li>
+                <a href="#" id="enter-fullscreen" class="expand-icon" title="">Enter full screen</a>
+                <a href="#" id="exit-fullscreen" class="compress-icon" style="display:none" title="">Exit full screen</a>
+                <a href="#" id="update-slack-status" class="profile-icon" title="">Update profile status<span id="slack-status-desc"></span></a>
+                <a href="#" id="pause-slack-notifications" class="notifications-off-icon" title="">Pause notifications</a>
+                <a href="#" id="enable-slack-notifications" class="notifications-on-icon" style="display:none" title="">Turn on notifications<span id="enable-slack-notifications-desc"></span></a>
+                <a href="#" id="slack-presence-away" class="presence-icon" title="">Set presence to away</a>
+                <a href="#" id="slack-presence-active" class="presence-icon" style="display:none" title="">Set presence to active</a>
+                <a href="#" id="dark-mode-disable" class="adjust-icon" style="display:none" title="">Turn off dark mode</a>
+                <a href="#" id="dark-mode-enable" class="adjust-icon" title="">Turn on dark mode</a>
+                <a href="#" id="slack-dock-change" class="position-icon" title="">Toggle dock position</a>
+              </li>
+            </ul>
+          </li>
+        </div>
+      </div>
     </div>
 
     <div class="sv-toolbox">
