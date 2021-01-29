@@ -399,10 +399,10 @@ file-it@^1.0.24:
     "@types/universalify" "^1.0.0"
     universalify "^1.0.0"
 
-file-it@^1.0.27:
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/file-it/-/file-it-1.0.27.tgz#d4855914cfd4e102bf9bc749d3e56d69ca3f4f00"
-  integrity sha512-AB4nzm23mxyZPKGBxONEGACMtgiyg3V92zNhsZz5RuWHobZAK4KUWPRykwTdcHhcVOINGOTmk4SCXJvHfAk0tw==
+file-it@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/file-it/-/file-it-1.1.0.tgz#ada9541ea368739e8d25144fd7a3d81ea54c19a2"
+  integrity sha512-U5D6LmYVUiWGlWd9GiLcIRq413Hzb59HGP6H2ggw48qM168VaQErNmaTw/I4UC+pxHMsT8E3pz0vTaogV2E03Q==
   dependencies:
     "@types/universalify" "^1.0.0"
     universalify "^2.0.0"
