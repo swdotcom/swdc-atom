@@ -91,4 +91,4 @@ Enjoying Code Time? Let us know how it’s going by tweeting or following us at 
 
 We're also the creators behind Music Time for Atom, an extension that helps you find your most productive songs for coding. You can learn more [here](https://www.software.com/music-time).
 
-Have any questions? Create an issue in the [Code Time project](https://github.com/swdotcom/swdc-vscode) on GitHub or send us an email at [support@software.com](mailto:support@software.com) and we’ll get back to you as soon as we can.
+Have any questions? Create an issue in the [Code Time project](https://github.com/swdotcom/swdc-atom) on GitHub or send us an email at [support@software.com](mailto:support@software.com) and we’ll get back to you as soon as we can.
