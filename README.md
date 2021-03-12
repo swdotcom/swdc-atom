@@ -59,7 +59,7 @@ Your *time in editor* is the total time you have spent in your editor today. You
 
 Click **More data at software.com** in the Code Time sidebar or visit [app.software.com](https://app.software.com) to see more advanced data visualizations. You will need to create a free Software account to use the web app. In the Code Time dashboard, you will be able to track: 
 
-**Active code time.** Visualize your daily active code time. See productivity trends compared to weekly and monthly averages. See how you stack up against the Software community of over 100,000 developers.
+**Active code time.** Visualize your daily active code time. See productivity trends compared to weekly and monthly averages. See how you stack up against the Software community of over 150,000 developers.
 
 **Top projects.** See how much time you spend per project per week. Get a breakdown of your top projects right in your dashboard.
 
