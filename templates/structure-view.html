@@ -34,12 +34,9 @@
           font-weight: 500;
           color: #617AF5;
         }
-        .menu-section {
-            min-height: 220px;
-        }
 
-        .flow-section {
-            min-height: 130px;
+        .menu-section {
+            margin-bottom: 10px
         }
 
         .daily-metrics-section {
@@ -156,6 +153,27 @@
     </style>
 
     <div class="sv-toolbox">
+      <span>FLOW</span>
+    </div>
+    <div class="vertical-menu menu-section">
+      <div id="code-time-flow">
+        <a href="#" id="enable-flow-mode" class="dot-outlined-icon" title="">Enable Flow Mode</a>
+        <a href="#" id="pause-flow-mode" class="dot-icon" style="display:none" title="">Pause Flow Mode</a>
+      </div>
+    </div>
+
+    <div class="sv-toolbox">
+      <span>STATS</span>
+    </div>
+    <div class="vertical-menu menu-section">
+      <div id="code-time-flow">
+        <a href="#" id="edit-preferences" class="files-icon" title="">Settings</a>
+        <a href="#" id="generate-dashboard" class="dashboard-icon" title="">Dashboard</a>
+        <a href="#" id="advanced-metrics" class="paw-icon" title="">More data at Software.com</a>
+      </div>
+    </div>
+
+    <div class="sv-toolbox">
         <span>ACCOUNT</span>
     </div>
 
@@ -168,70 +186,14 @@
         >
         <div class="vertical-menu" id="logged-in-label"></div>
         <a href="#" id="switch-account-button" class="paw-icon" title="">Switch account</a>
-        <a href="#" id="generate-dashboard" class="dashboard-icon" title="">Dashboard</a>
-        <a href="#" id="advanced-metrics" class="paw-icon" title="">More data at Software.com</a>
-        <a href="#" id="learn-more" class="readme-icon" title="">Documentation</a>
         <a href="#" id="toggle-status-metrics" class="visible-icon" title=""
             >Hide status bar metrics</a
         >
+        <a href="#" id="learn-more" class="readme-icon" title="">Documentation</a>
         <a href="#" id="submit-feedback" class="message-icon" title=""
-            >Submit feedback</a
+            >Submit an issue</a
         >
         <div class="vertical-menu" id="slack-workspace-node"></div>
     </div>
-
-    <div class="sv-toolbox">
-      <span>FLOW</span>
-    </div>
-    <div class="vertical-menu flow-section">
-      <div id="code-time-flow">
-        <a href="#" id="enable-flow-mode" class="dot-outlined-icon" title="">Enable Flow Mode</a>
-        <a href="#" id="pause-flow-mode" class="dot-icon" style="display:none" title="">Pause Flow Mode</a>
-      </div>
-      <div class="vertical-menu" id="code-time-automations">
-        <div>
-          <li>
-            <input type="checkbox" id="settings-folder"/>
-            <label for="settings-folder">Settings</label>
-            <ul>
-              <li>
-                <a href="#" class="settings-icon" id="edit-pause-notifications" title="">Pause notifications<span id="pause-notifications-val" class="details"></span></a>
-                <a href="#" class="settings-icon" id="edit-slack-away-status" title="">Slack away status<span id="slack-away-status-val" class="details"></span></a>
-                <a href="#" class="settings-icon" id="edit-slack-away-text" title="">Slack away status text<span id="slack-status-away-text-val" class="details"></span></a>
-                <a href="#" class="settings-icon" id="edit-screen-mode" title="">Screen mode<span id="screen-mode-val" class="details"></span></a>
-                <a href="#" class="settings-icon" id="edit-flow-mode-reminders" title="">Flow Mode Reminders<span id="flow-mode-reminders-val" class="details"></span></a>
-              </li>
-            </ul>
-          </li>
-        </div>
-      </div>
-      <div class="vertical-menu" id="code-time-automations">
-        <div>
-          <li>
-            <input type="checkbox" id="automations-folder"/>
-            <label for="automations-folder">Automations</label>
-            <ul>
-              <li>
-                <a href="#" id="enter-fullscreen" class="expand-icon" title="">Enter full screen</a>
-                <a href="#" id="exit-fullscreen" class="compress-icon" style="display:none" title="">Exit full screen</a>
-                <a href="#" id="update-slack-status" class="profile-icon" title="">Update profile status<span id="slack-status-desc"></span></a>
-                <a href="#" id="pause-slack-notifications" class="notifications-off-icon" title="">Pause notifications</a>
-                <a href="#" id="enable-slack-notifications" class="notifications-on-icon" style="display:none" title="">Turn on notifications<span id="enable-slack-notifications-desc"></span></a>
-                <a href="#" id="slack-presence-away" class="presence-icon" title="">Set presence to away</a>
-                <a href="#" id="slack-presence-active" class="presence-icon" style="display:none" title="">Set presence to active</a>
-                <a href="#" id="dark-mode-disable" class="adjust-icon" style="display:none" title="">Turn off dark mode</a>
-                <a href="#" id="dark-mode-enable" class="adjust-icon" title="">Turn on dark mode</a>
-                <a href="#" id="slack-dock-change" class="position-icon" title="">Toggle dock position</a>
-              </li>
-            </ul>
-          </li>
-        </div>
-      </div>
-    </div>
-
-    <div class="sv-toolbox">
-        <span>STATS</span>
-    </div>
-    <div class="vertical-menu daily-metrics-section" id="code-time-metrics"></div>
 
 </div>
