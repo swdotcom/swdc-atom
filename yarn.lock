@@ -53,6 +53,9 @@
     tslib "^2.3.0"
     uuid "^3.4.0"
 
+"@swdotcom/editor-flow@../editor-flow":
+  version "1.0.5"
+
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-4.0.6.tgz#b4a914bb62e7c272d4e5989fe4440f812ab1d807"

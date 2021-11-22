@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "@slack/web-api": "^6.4.0",
+        "@swdotcom/editor-flow": "../editor-flow",
         "@types/jquery": "^3.5.8",
         "axios": "^0.24.0",
         "crypto": "^1.0.1",
