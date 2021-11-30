@@ -28,16 +28,14 @@
         "@types/jquery": "^3.5.8",
         "axios": "^0.24.0",
         "crypto": "^1.0.1",
-        "date-fns": "^2.25.0",
-        "file-it": "^1.1.5",
+        "date-fns": "^2.27.0",
         "jquery": "3.6.0",
-        "moment-timezone": "^0.5.33",
         "numeral": "^2.0.6",
         "open": "^8.4.0",
         "query-string": "^7.0.1",
         "swdc-tracker": "^1.5.0",
         "uuid": "^8.3.2",
-        "ws": "^8.2.3"
+        "ws": "^8.3.0"
     },
     "devDependencies": {
         "mocha": "^7.1.2",
