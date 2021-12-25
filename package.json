@@ -23,8 +23,8 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
-        "@swdotcom/editor-flow": "^1.0.8",
-        "@types/jquery": "^3.5.8",
+        "@swdotcom/editor-flow": "1.1.0",
+        "@types/jquery": "^3.5.11",
         "axios": "^0.24.0",
         "crypto": "^1.0.1",
         "date-fns": "^2.27.0",
