@@ -24,10 +24,10 @@
     tslib "^2.3.0"
     uuid "^3.4.0"
 
-"@swdotcom/editor-flow@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@swdotcom/editor-flow/-/editor-flow-1.1.0.tgz#7015058a228945e8720daedf025aedfbc591f3e8"
-  integrity sha512-70A7T323u4E4mAkRKAr3sW1f92bGfITehPW1puuNS8wwzLKNVbPCQ/tOHK9AoKdpStSFJYwdrmwDyrgD2yXd+Q==
+"@swdotcom/editor-flow@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@swdotcom/editor-flow/-/editor-flow-1.1.1.tgz#dbbbf961954d1fe5b62bec0f04e0263c5f6d4db0"
+  integrity sha512-r+IlQkqHNtxmfaCLo64bvi/hDYL198n9gwctV/+BJY3wPJZBKGEO4ybEJeCNavwr87guJ7tZe8txjV7efQR+tQ==
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
@@ -66,9 +66,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "17.0.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.4.tgz#fec0ce0526abb6062fd206d72a642811b887a111"
-  integrity sha512-6xwbrW4JJiJLgF+zNypN5wr2ykM9/jHcL7rQ8fZe2vuftggjzZeRSM4OwRc6Xk8qWjwJ99qVHo/JgOGmomWRog==
+  version "17.0.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.5.tgz#57ca67ec4e57ad9e4ef5a6bab48a15387a1c83e0"
+  integrity sha512-w3mrvNXLeDYV1GKTZorGJQivK6XLCoGwpnyJFbJVK/aTBQUxOCaa/GlFAAN3OTDFcb7h5tiFG+YXCO2By+riZw==
 
 "@types/node@^16.10.3":
   version "16.11.17"
@@ -267,9 +267,9 @@ crypto@^1.0.1:
   integrity sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==
 
 date-fns@^2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.27.0.tgz#e1ff3c3ddbbab8a2eaadbb6106be2929a5a2d92b"
-  integrity sha512-sj+J0Mo2p2X1e306MHq282WS4/A8Pz/95GIFcsPNMPMZVI3EUrAdSv90al1k+p74WGLCruMXk23bfEDZa71X9Q==
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
+  integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
 debug@3.2.6:
   version "3.2.6"
